@@ -1,0 +1,18 @@
+{
+    "title": "An Introduction to Laplace Transforms and Fourier Series",
+    "author": "Phil Dyke",
+    "desc": "Laplace transforms continue to be a very important tool for the engineer, physicist and applied mathematician. They are also now useful to financial, economic and biological modellers as these disciplines become more quantitative. Any problem that has underlying linearity and with solution based on initial values can be expressed as an appropriate differential equation and hence be solved using Laplace transforms.In this book, there is a strong emphasis on application with the necessary mathematical grounding. There are plenty of worked examples with all solutions provided. This enlarged new edition includes generalised Fourier series and a completely new chapter on wavelets.Only knowledge of elementary trigonometry and calculus are required as prerequisites. An Introduction to Laplace Transforms and Fourier Series will be useful for second and third year undergraduate students in engineering, physics or mathematics, as well as for graduates in any discipline such as financial mathematics, econometrics and biological modelling requiring techniques for solving initial value problems.",
+    "img_url": "https://s3proxy.cdn-zlib.se/covers299/collections/genesis/764608b069f7c9a59c30e38244a08a2c4254d181aee25437a8122de894950c31.jpg",
+    "Categories": "Mathematics - Computational Mathematics",
+    "Year": "2014",
+    "Edition": "2",
+    "Publisher": "Springer",
+    "Language": "english",
+    "Pages": "318/325",
+    "ISBN 10": "1447163958",
+    "ISBN 13": "9781447163954",
+    "Series": "Springer Undergraduate Mathematics Series",
+    "File": "PDF, 4.33 MB",
+    "IPFS CID": "QmSx5fXyZ5iospeibPEL7QDvaAVNkX7w9qctBR9Y7RYRsF",
+    "IPFS CID blake2b": "bafykbzaced44ho5ppxlejlyx7fbbsziobluhalm6khwfu6yynisjfpqahmo5q"
+}

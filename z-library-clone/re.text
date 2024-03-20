@@ -1,0 +1,1897 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+                <script src="/components/zlibrary.js"></script>
+        <script type="text/javascript">
+            navigator.sayswho = (function(){
+                var ua= navigator.userAgent, tem,
+                M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if(/trident/i.test(M[1])){
+                    tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return 'IE '+(tem[1] || '');
+                }
+                if(M[1]=== 'Chrome'){
+                    tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+                    if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+                }
+                M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+                if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+                return M.join(' ');
+            })();
+
+                    </script>
+
+        <title>Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.</title>
+<base href="/">
+    <link rel="canonical" href="https://zlib-articles.se/" />
+            <meta charset="utf-8">
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="title" content="Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.">
+			<meta name="description" content="Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture. | Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
+            <link rel="icon" href="favicon.svg">
+            <link rel="icon" type="image/svg+xml" href="/favicon-32x32.svg?v=2" sizes="32x32">
+            <link rel="icon" type="image/svg+xml" href="/favicon-16x16.svg?v=2" sizes="16x16">
+            <link rel="manifest" href="/manifest.json?v=1" crossorigin="use-credentials">
+            <link rel="mask-icon" href="/safari-pinned-tab.svg?v=1" color="#5bbad5">
+            <meta name="apple-mobile-web-app-title" content="Z-Library">
+            <meta name="application-name" content="Z-Library">
+            <meta name="theme-color" content="#ffffff">
+
+            <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+            <meta name="alfacoins-site-verification" content="5ef0e7b2483f15ef0e7b2484275ef0e7b24845d_ALFAcoins">
+            <meta name="format-detection" content="telephone=no">
+                        <style>z-recommended-search:not(.ready), z-dropdown:not(.ready), z-booklist:not(.ready), z-carousel:not(.ready){ opacity: 0; max-height: 250px; }</style>
+	
+<!-- CSS SET -->
+<!-- JS SET --> 
+<link REL="SHORTCUT ICON" HREF="/favicon.ico?v=1">
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library Z-Library" />
+
+                    <link rel="stylesheet" type="text/css" href="/resources/build/global.css?0.660" />
+            <link rel="preload" href="/resources/build/global-d.css?0.660" as="style" onload="this.onload=null;this.rel='stylesheet'">
+            <noscript><link rel="stylesheet" href="/resources/build/global-d.css?0.660"></noscript>
+            <script type="text/javascript" src="/resources/build/global.js?0.660"></script>
+            <script type="text/javascript" src="/resources/build/global-d.js?0.660" defer></script>
+                <noscript>
+            <link rel="stylesheet" type="text/css" href="/resources/css/noscript.css?0.660" />
+        </noscript>
+
+        <script>
+            window != top ? window.stop() : null;
+                        
+            const Config = {"domainHost":"zlib-articles.se","BRegion":"asia","Country":"ir","accessByIp":false,"supportEmail":"support@z-lib.se","preferredDomain":"https:\/\/zlib-articles.se","loginDomain":"https:\/\/singlelogin.se","generalFilesProxy":"https:\/\/dlr1.fcdn.sk\/general-files\/"};
+            const CurrentUser = new User(null);
+            const CurrentClientIP = "46.143.36.191";
+            const CurrentSiteMode = 'articles';
+            const proxiesToCheck = []; //for google verification
+
+            i18next
+                .use(i18nextHttpBackend)
+                .init({
+                    // saveMissing: true,
+                    lng: '',
+                    fallbackLng: 'en',
+                    backend: {
+                        // addPath: '/papi/translations/add-missing-key',
+                        loadPath: '/resources/build/translations-frontend/{{lng}}?v=0.660'
+                    }
+                })
+
+            $(document).ready(function() {
+                $('.tooltip-init').tooltip({html: true})
+
+                            })
+
+            $(document).on('focus', '.form-email-field', function() {
+                $(this).tooltip('hide')
+            })
+
+            $(document).on('change', '.form-email-field', function() {
+                const $input = $(this)
+                const email = $input.val()
+
+                $input.parents('.form-group').find('.form-error').remove()
+            })
+
+            $(document).on('focus', '.form-email-field', function() {
+                $(this).tooltip('hide')
+            });
+
+        </script>
+                        <script src="/components/zlibrary-startup-script.js"></script>
+        <link rel="stylesheet" href="/components/style.css">
+    </head>
+
+    <body style="margin:0px;padding:0px;" class="index startForm" data-proxy="false">
+
+        
+        
+<div class="support-us-headline hidden" style="padding: 13px; text-align: center; font-size: 14px; line-height: 19px; background: linear-gradient(89.99deg, #234D49 0.46%, #495F86 24.82%, #25A6BB 44.52%, #0ABAD4 62.67%, #03AAC0 82.36%, #058490 99.99%) #495F86; color: #fff;">
+            <img src="/img/icon-speaker.svg" style="vertical-align: bottom; margin-right: 6px;" />
+    
+    <span>Support us in the fight for the freedom of knowledge</span>
+    <a href="/support-us" style="display: inline-block; color: #fff; margin-left: 16px;">Sign the petition</a>
+
+            <span class="support-us-headline-hide">Hide info</span>
+    </div>
+
+    <script type="text/javascript">
+        if (!(!!window.localStorage.getItem('supportuslabel'))){
+            $('.support-us-headline').removeClass('hidden')
+        }
+        $('.support-us-headline-hide').on('click', function(){
+            window.localStorage.setItem('supportuslabel', true)
+            $('.support-us-headline').addClass('hidden')
+        })
+    </script>
+
+<style type="text/css">
+.support-us-headline a {
+    text-decoration: underline;
+}
+.support-us-headline .support-us-headline-hide {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 16px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity .2s ease;
+    cursor: pointer;
+}
+.support-us-headline:hover .support-us-headline-hide {
+    opacity: 1;
+}
+</style>        
+        <table class="super-puper-main-container" border="0" cellpadding="0" cellspacing="0" style="">
+            <tbody>
+                <tr style="height:10px;">
+                    <td style="vertical-align: top;">
+                        <div class="container-fluid">
+                            
+
+
+<div class="row hideInDesktopApp20">
+    <div class="col-md-12">
+        
+<style>
+    div#colorBoxes
+    {
+        text-transform: capitalize;
+    }
+
+    div#colorBoxes ul li.active:nth-child(1)
+    {
+        border: 1px solid #378096;
+        box-shadow: 0 0 6px #7DBCCF;
+        border-top: 0px;
+    }
+
+    div#colorBoxes ul li.active:nth-child(2)
+    {
+        border: 1px solid #6e9b41;
+        box-shadow: 0 0 6px #a4e861;
+        border-top: 0px;
+    }
+</style>
+
+
+<div id="colorBoxes">
+    <ul>
+        <li style="background: #49afd0;" class="" data-sitemode="books">
+            <a href="https://z-library.se" title="Z-Library books" class="header-main-nav-link check-preferred-domain" data-destination_mode="books">
+                <span class="hidden-xs">books search</span>
+                <span class="visible-xs">books</span>
+            </a>
+        </li>
+
+                <li style="background: #8ecd51;" data-sitemode="articles">
+            <a href="/" title="Z-Library articles" class="header-main-nav-link " data-destination_mode="articles">
+                <span class="hidden-xs">articles search</span>
+                <span class="visible-xs">articles</span>
+            </a>
+        </li>
+                <li class="visible-xs colorBoxesLink ">
+            <a href="/how-to-donate" style="color: #8CCC4F">Donate</a>        </li>
+    </ul>
+</div>
+        <div role="navigation" class="navbar-default navbar-right" style="background-color: transparent;">
+
+            <div class="navbar-upd">
+                
+                <a href="/how-to-donate" class="navbar-upd__donate">Donate</a>
+                
+                <div class="navbar-upd__search">
+                    <label for="navbar-upd-search" class="navbar-upd__search-btn">
+                        <i class="navbar-upd__search-pic zlibicon-search-bold"></i>
+                    </label>
+                    <input class="drop-opener-input" type="checkbox" id="navbar-upd-search" autocomplete="off">
+                    <div class="field-drop search-upd">
+                        <form role="search" class="search-upd__form" method="get" action="/s/" name="quickSearch">
+                            <input class="search-upd__input" type="text" name="q" placeholder="Search for title, author, DOI, journal, md5..">
+                            <button type="reset" class="search-upd__reset"><i class="zlibicon-cross"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="navbar-upd__menu">
+                    <label for="navbar-upd-menu" id="profileMenu">
+                        <div class="upd-burger js-burger-toggler">
+                            <div class="upd-burger__bar"></div>
+                            <div class="upd-burger__bar"></div>
+                            <div class="upd-burger__bar"></div>
+                        </div>
+                    </label>
+                    <input class="drop-opener-input" type="checkbox" id="navbar-upd-menu" autocomplete="off">
+                    <div class="field-drop menu-upd _offset">
+                        <div class="menu-upd__user-data">
+                            <div class="user-data">
+                                                                    <div class="user-data__sign">
+                                        <a href="https://singlelogin.se?redirectUrl=https%253A%252F%252Fzlib-articles.se%252F" data-mode="singlelogin" data-action="login" class="user-data__sign-title">Sign In</a>
+                                        <div class="user-data__sign-note">to access more features</div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>personal recommendations</div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>Telegram Bot</div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>download history</div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>send to Email or Kindle </div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>manage booklists</div>
+                                        <div class="user-data__sign-feature"><i class="zlibicon-arrow-right"></i>save to favorites</div>
+                                    </div>
+                                                                
+                            </div>
+                        </div>
+
+
+                        <div class="menu-upd__content">
+                            <div class="menu-cats">
+                                                                <div class="menu-cats__item">
+                                    <div class="menu-cats__item-title js-cat-toggler" data-cat="explore">Explore<i class="menu-item__arr zlibicon-slider-arr-right"></i></div>
+                                    <div class="menu-cats__links">
+                                                                                    <a href="/journals/A" class="menu-item">
+                                                <i class="menu-item__icon zlibicon-journal"></i>
+                                                <span class="menu-item__text">Journals</span>
+                                            </a>
+                                                                                                                    </div>
+                                </div>
+                                <div class="menu-cats__item">
+                                    <div class="menu-cats__item-title js-cat-toggler" data-cat="contribution">Contribution<i class="menu-item__arr zlibicon-slider-arr-right"></i></div>
+                                    <div class="menu-cats__links">
+                                        <a href="/how-to-donate" class="menu-item"><i class="menu-item__icon zlibicon-dollar"></i><span class="menu-item__text">Donate</a>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="menu-cats__item">
+                                    <div class="menu-cats__item-title js-cat-toggler" data-cat="interlibrary"><div>Interlibrary<span style="margin-left: 14px;" class="new-label">new</span></div><i class="menu-item__arr zlibicon-slider-arr-right"></i></div>
+                                    <div class="menu-cats__links">
+                                        <a href="/inter-library" class="menu-item">
+                                            <i class="menu-item__icon zlibicon-offline-books" style="font-size: 16px;"></i>
+                                            <span class="menu-item__text"> Donate paper books to InterLibrary</span>
+                                        </a>
+                                        <a href="/books-offline" class="menu-item">
+                                            <i class="menu-item__icon zlibicon-open-empty-book"></i>
+                                            <span class="menu-item__text">Add paper books to InterLibrary</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    .main-menu-item img {
+        opacity: 0.7;
+    }
+    .main-menu-item img:hover {
+        opacity: 1;
+    }
+
+        @media screen and (min-width: 992px) {
+        .menu-cats__item {
+            width: 30%;
+        }
+    }
+    </style>
+
+
+<script>
+    $("#bs-example-navbar-collapse-1").on('shown.bs.collapse', function(e){
+        $('#main-menu-dropdown').dropdown('toggle');
+        $('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+
+        $('#admin-menu-dropdown').dropdown('toggle');
+        $('#admin-menu-dropdown').attr('data-toggle', ''); // make it static
+
+        $("#quickSearchMenuDD2").dropdown('toggle');
+        $('#quickSearchMenuDD2').attr('data-toggle', ''); // make it static
+
+        $("#profileMenu").dropdown('toggle');
+        $('#profileMenu').attr('data-toggle', ''); // make it static
+    });
+
+    $("#bs-example-navbar-collapse-1").on('hide.bs.dropdown', function(e){
+        if ($(window).width() > 767) return
+
+        $('#loginDDLink, #stagesLink, #admin-menu-dropdown').next('ul').hide();
+    })
+
+    $('document').ready(() => clearSearchButtonEvents('#quickSearchInput', '#quickSearchReset'));                       // быстрый поиск из шапки
+
+    $('.js-burger-toggler').on('click', function(e) {
+        if ($(window).width() < 991) {
+            $(window).scrollTop(0)
+
+            if ($(window).width() < 768) {
+                $('.adminLink').toggle();
+                $('.tabsTopMenu').toggle();
+            }
+
+            if ($('.upd-burger').hasClass('_active')) {
+                $('body').css('overflow','visible');
+            } else {
+                $('body').css('overflow','hidden')
+            }
+        }
+
+        $('.upd-burger').toggleClass('_active');
+    })
+
+    $('.js-compact-toggle').on('click', function() {
+        $(this).toggleClass('_active');
+        $('.user-data').toggleClass('_compact');
+
+        if (localStorage.getItem('isMenuCompact')) {
+            localStorage.removeItem('isMenuCompact')
+            $('[data-menu-toggle="tooltip"]').tooltip('disable')
+        } else {
+            localStorage.setItem('isMenuCompact', 'true')
+            if ($(window).width() > 991) $('[data-menu-toggle="tooltip"]').tooltip('enable')
+        }
+    })
+
+    $('.js-cat-toggler').on('click', function() {
+        if ($(window).width() < 993) {
+            const clickedCat = $(this).attr('data-cat')
+            const selectedCatList = JSON.parse(localStorage.getItem('selectedCatList')) || []
+
+            $(this).toggleClass('_active');
+            $(this).next('.menu-cats__links').slideToggle();
+
+            if (selectedCatList.indexOf(clickedCat) > -1) {
+                const index = selectedCatList.indexOf(clickedCat);
+                selectedCatList.splice(index, 1);
+                localStorage.setItem('selectedCatList', JSON.stringify(selectedCatList))
+            } else {
+                selectedCatList.push(clickedCat)
+                localStorage.setItem('selectedCatList', JSON.stringify(selectedCatList))
+            }
+        }
+    })
+
+    $('document').ready(function() {
+        var selectedCatList = JSON.parse(localStorage.getItem('selectedCatList'));
+        var isMenuCompact = localStorage.getItem('isMenuCompact')
+        if (selectedCatList) {
+            $('.menu-cats__links').removeAttr('style');
+            $('.menu-cats__item-title').removeClass('_active');
+            for (cat of selectedCatList) {
+                $('[data-cat = '+cat+']').addClass('_active');
+                $('[data-cat = '+cat+']').next().css('display', 'block');
+            }
+        } else {
+            localStorage.setItem('selectedCatList', JSON.stringify(['personal']))
+        }
+        if (isMenuCompact) {
+            $('.user-data').addClass('_compact');
+        }
+    })
+
+    $('.js-copy-link').on('click', function() {
+        const link = $(this).prev().data('link')
+        navigator.clipboard.writeText(link)
+        new ZLibraryNotify().info('Address is copied to your clipboard')
+    })
+
+    $('.navbar-upd__search-btn').on('click', function () {
+        $(this).toggleClass('_active')
+        setTimeout(() => {
+            $('.search-upd__input').focus()
+        }, 300);
+
+    })
+
+    $('#navbar-upd-search').prop('checked', false)
+    $('#navbar-upd-menu').prop('checked', false)
+
+    $(window).on('resize', function () {
+        if ($(window).width() > 991) {
+            $('.menu-cats__links').css('display', 'block')
+        } else {
+            $('[data-menu-toggle="tooltip"]').tooltip('disable')
+        }
+        if ($(window).width() < 768) {
+            if (!$('.upd-burger').hasClass('_active')) {
+                $('.adminLink').hide();
+                $('.tabsTopMenu').hide();
+            }
+        } else {
+            $('.adminLink').show();
+            $('.tabsTopMenu').show();
+        }
+
+        if ($('.upd-burger').hasClass('_active')) {
+            $('body').css('overflow','hidden');
+        }
+    })
+
+    $(window).click(function() {
+        $('#navbar-upd-search').attr('checked', false);
+        $('#navbar-upd-menu').attr('checked', false);
+        $('.navbar-upd__search-btn').removeClass('_active')
+        $('.upd-burger').removeClass('_active')
+        if ($(window).width() < 768) {
+            $('.adminLink').hide();
+            $('.tabsTopMenu').hide();
+        }
+    });
+
+    $('.navbar-upd__search, .navbar-upd__menu').click(function(event){
+        event.stopPropagation();
+    });
+
+    if (localStorage.getItem('isMenuCompact') && ($(window).width() > 991)) {
+        $('[data-menu-toggle="tooltip"]').tooltip()
+    } else if (!localStorage.getItem('isMenuCompact') && ($(window).width() > 991)) {
+        $('.navbar-upd__share-btn').tooltip()
+    } else {
+        $('[data-menu-toggle="tooltip"]').tooltip('disable')
+    }
+
+    $('.js-copy-url').on('click', function(e) {
+        let domain_to_share = "zlib-articles.se"
+        if(!domain_to_share){
+            domain_to_share = "zlib-articles.se"
+        }
+        let url = location.protocol+'//'+domain_to_share+location.pathname+location.search+location.hash;
+        navigator.clipboard.writeText(url);
+        $('.tooltip').find('.tooltip-inner').html('Link is copied to your clipboard');
+    })
+
+</script>                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="g-page-content">
+                        <div class="container " style="padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+<div id="searchFormWithLogo">
+        <div class="searchFormLogo hideInDesktopApp">
+        <div style="font-size:52px; padding: 0 15px 10px 15px; line-height: 1;">
+            <a href="/" style="text-decoration:none;" id="logoText">
+                                    <img src="/img/logo.zlibrary.articles.png" style="width:300px;" alt="ZLibary Articles" title="Z-Library">
+                            </a>
+        </div>
+        <div class="color4" style="color:#90A5A8;font-weight:400; padding:4px 0 15px 0;font-style: italic;">
+            The world's largest scientific articles store. 70,000,000+ articles for free.        </div>
+    </div>
+    
+    <div class="hidden-xs" id="scamSites2Banner" style="position: relative;">
+    <div class="btnHideBanner" data-name="scamSites2">
+        <span class="zlibicon-cross"></span>
+    </div>
+
+    <img src="/img/banners/scam-sites-3.png">
+</div>
+
+<style type="text/css">
+    #scamSites2Banner img {
+        margin-left: -22px;
+        margin-top: -4px;
+    }
+
+    #scamSites2Banner .btnHideBanner {
+        position: absolute;
+        right: 10px;
+        top: 44px;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 1199px) {
+        #scamSites2Banner img {
+            margin-left: -24px;
+            width: 985px;
+        }
+        #scamSites2Banner .btnHideBanner {
+            right: 10px;
+            top: 38px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        #scamSites2Banner .btnHideBanner {
+            right: 16px;
+            top: 32px;
+        }
+
+        #scamSites2Banner img {
+            width: 752px;
+        }
+    }
+</style><div class="cBox1Danger">Unfortunately, due to the load on the servers, there may be temporary problems with downloading files. Our specialists are already working hard to resolve this issue. We apologize for the inconvenience. We appreciate your patience and understanding.</div>
+<div id="merchantPopup" class="hidden">
+    <p>We're currently searching for a high-risk payment processing provider to handle bank cards and local payments.
+    <p>
+        If you know of any reliable providers, please get in touch with us via <a href="mailto:support@z-lib.se">support@z-lib.se</a> with the subject line <b>"High-risk merchant"</b>. Your help is greatly appreciated!
+    <p>Please refrain from emailing if you are not familiar with this topic.
+    <p>Thank you!
+    <div class="modal-footer">
+        <button class="btnCloseMerchantPopup">Close</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).on('click', '.btnShowMerchantPopup', function() {
+        const merchantModal = new ZLibraryModal({
+            element: 'merchantPopup',
+            container: 'zlibrary-modal-styled',
+        })
+        merchantModal.show()
+    })
+
+    $(document).on('click', '.btnCloseMerchantPopup', function() {
+        const merchantModal = new ZLibraryModal({
+            element: 'merchantPopup',
+            container: 'zlibrary-modal-styled',
+        })
+        merchantModal.hide()
+    })
+
+    $(document).on('click', '.btnHideAnnouncement', function() {
+        let cook = getCookie('hiddenMessages');
+        let hidden = cook ? JSON.parse(cook) : [];
+        let messageHash = $(this).data('message');
+
+        if (hidden.indexOf(messageHash) === -1) {
+            hidden.push($(this).data('message'))
+        }
+
+        setCookie('hiddenMessages', JSON.stringify(hidden), 31*24*60*60*1000)
+        $('#messageBlock').hide()
+    })
+
+    $(document).on('click', '.btnHideBanner', function() {
+        const bannerName = $(this).data('name')
+        hideBanner(bannerName)
+    })
+
+    $(function () {
+        $('.feedback-modal').click(function () {
+            let modalTitle = $(this).data('title');
+            let subject = $(this).data('subject');
+            new ZLibraryModal({
+                url: '/layer/_modals/feedback?subject="' + subject + '"',
+                title: modalTitle
+            }).show()
+        })
+    })
+</script>
+
+
+    <a name="s"></a>
+
+    <form method="get" id="searchForm" action="/s/">
+                <ul id="searchModeTabs">
+            <li class="active"><a class="change_search_mode" href="javascript://" role="tab" title="Z-Library search">General Search</a></li>
+            <li class=""><a class="change_search_mode" href="/fulltext" role="tab" style="margin-left: -1px;" title="Z-Library fulltext search">Fulltext Search</a></li>
+        </ul>
+        
+        
+        
+        <div class="b-search-form hover">
+            <div class="b-search-input g-clearfix">
+                <div class="input">
+                    <input type="text" maxlength="200" name="q" id="searchFieldx" value="" placeholder="Search for title, author, DOI, journal, md5..">
+                    <button type="button" class="button-search-reset" id="mainSearchReset">&times;</button>
+                </div>
+                <div class="button whiteShadow">
+                    <div class="inner">
+                        <button type="submit" aria-label="Search">
+                            <span class="hidden-xs">Search</span>
+                            <span class="glyphicon glyphicon-search visible-xs-block"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="padding-bottom: 5px;">
+            <div id="advSearch-wrapper">
+                <div class="" id="openAdvSearchBtn">
+                    <span id="advSearch-control" style="border-bottom: 1px dashed; color: #777;font-size: 14px;cursor:pointer;line-height: 1.2;">Search options</span>
+
+                                            <div class="social-share-buttons-wrap hideInDesktopApp"><span class="social-share-title" style="display: none">Share with the world</span><div class="social-share-buttons"></div></div>
+                                        <!-- no-JS search filters -->
+                    <div class="hidden" style="display:none;" id="advSearch-noJS">
+                        <input type="hidden" name="noJs" value="1" />
+                                                <div>
+                            <input type="checkbox" name="e" value="1" id="sf_Exact" >
+                            <label for="sf_Exact">Exact matching</label>
+                        </div>
+                                                <div>
+                            <select name="yearFrom" id="sf_yearFrom">
+                                <option value="">From any year</option>
+                                                                    <option value="2024">2024</option>
+                                                                    <option value="2023">2023</option>
+                                                                    <option value="2022">2022</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2018">2018</option>
+                                                                    <option value="2017">2017</option>
+                                                                    <option value="2016">2016</option>
+                                                                    <option value="2015">2015</option>
+                                                                    <option value="2014">2014</option>
+                                                                    <option value="2013">2013</option>
+                                                                    <option value="2012">2012</option>
+                                                                    <option value="2011">2011</option>
+                                                                    <option value="2010">2010</option>
+                                                                    <option value="2009">2009</option>
+                                                                    <option value="2008">2008</option>
+                                                                    <option value="2007">2007</option>
+                                                                    <option value="2006">2006</option>
+                                                                    <option value="2005">2005</option>
+                                                                    <option value="2004">2004</option>
+                                                                    <option value="2003">2003</option>
+                                                                    <option value="2002">2002</option>
+                                                                    <option value="2001">2001</option>
+                                                                    <option value="2000">2000</option>
+                                                                    <option value="1999">1999</option>
+                                                                    <option value="1998">1998</option>
+                                                                    <option value="1997">1997</option>
+                                                                    <option value="1996">1996</option>
+                                                                    <option value="1995">1995</option>
+                                                                    <option value="1994">1994</option>
+                                                                    <option value="1993">1993</option>
+                                                                    <option value="1992">1992</option>
+                                                                    <option value="1991">1991</option>
+                                                                    <option value="1990">1990</option>
+                                                                    <option value="1989">1989</option>
+                                                                    <option value="1988">1988</option>
+                                                                    <option value="1987">1987</option>
+                                                                    <option value="1986">1986</option>
+                                                                    <option value="1985">1985</option>
+                                                                    <option value="1984">1984</option>
+                                                                    <option value="1983">1983</option>
+                                                                    <option value="1982">1982</option>
+                                                                    <option value="1981">1981</option>
+                                                                    <option value="1980">1980</option>
+                                                                    <option value="1979">1979</option>
+                                                                    <option value="1978">1978</option>
+                                                                    <option value="1977">1977</option>
+                                                                    <option value="1976">1976</option>
+                                                                    <option value="1975">1975</option>
+                                                                    <option value="1974">1974</option>
+                                                                    <option value="1973">1973</option>
+                                                                    <option value="1972">1972</option>
+                                                                    <option value="1971">1971</option>
+                                                                    <option value="1970">1970</option>
+                                                                    <option value="1969">1969</option>
+                                                                    <option value="1968">1968</option>
+                                                                    <option value="1967">1967</option>
+                                                                    <option value="1966">1966</option>
+                                                                    <option value="1965">1965</option>
+                                                                    <option value="1964">1964</option>
+                                                                    <option value="1963">1963</option>
+                                                                    <option value="1962">1962</option>
+                                                                    <option value="1961">1961</option>
+                                                                    <option value="1960">1960</option>
+                                                                    <option value="1959">1959</option>
+                                                                    <option value="1958">1958</option>
+                                                                    <option value="1957">1957</option>
+                                                                    <option value="1956">1956</option>
+                                                                    <option value="1955">1955</option>
+                                                                    <option value="1954">1954</option>
+                                                                    <option value="1953">1953</option>
+                                                                    <option value="1952">1952</option>
+                                                                    <option value="1951">1951</option>
+                                                                    <option value="1950">1950</option>
+                                                                    <option value="1949">1949</option>
+                                                                    <option value="1948">1948</option>
+                                                                    <option value="1947">1947</option>
+                                                                    <option value="1946">1946</option>
+                                                                    <option value="1945">1945</option>
+                                                                    <option value="1944">1944</option>
+                                                                    <option value="1943">1943</option>
+                                                                    <option value="1942">1942</option>
+                                                                    <option value="1941">1941</option>
+                                                                    <option value="1940">1940</option>
+                                                                    <option value="1939">1939</option>
+                                                                    <option value="1938">1938</option>
+                                                                    <option value="1937">1937</option>
+                                                                    <option value="1936">1936</option>
+                                                                    <option value="1935">1935</option>
+                                                                    <option value="1934">1934</option>
+                                                                    <option value="1933">1933</option>
+                                                                    <option value="1932">1932</option>
+                                                                    <option value="1931">1931</option>
+                                                                    <option value="1930">1930</option>
+                                                                    <option value="1929">1929</option>
+                                                                    <option value="1928">1928</option>
+                                                                    <option value="1927">1927</option>
+                                                                    <option value="1926">1926</option>
+                                                                    <option value="1925">1925</option>
+                                                                    <option value="1924">1924</option>
+                                                                    <option value="1923">1923</option>
+                                                                    <option value="1922">1922</option>
+                                                                    <option value="1921">1921</option>
+                                                                    <option value="1920">1920</option>
+                                                                    <option value="1919">1919</option>
+                                                                    <option value="1918">1918</option>
+                                                                    <option value="1917">1917</option>
+                                                                    <option value="1916">1916</option>
+                                                                    <option value="1915">1915</option>
+                                                                    <option value="1914">1914</option>
+                                                                    <option value="1913">1913</option>
+                                                                    <option value="1912">1912</option>
+                                                                    <option value="1911">1911</option>
+                                                                    <option value="1910">1910</option>
+                                                                    <option value="1909">1909</option>
+                                                                    <option value="1908">1908</option>
+                                                                    <option value="1907">1907</option>
+                                                                    <option value="1906">1906</option>
+                                                                    <option value="1905">1905</option>
+                                                                    <option value="1904">1904</option>
+                                                                    <option value="1903">1903</option>
+                                                                    <option value="1902">1902</option>
+                                                                    <option value="1901">1901</option>
+                                                                    <option value="1900">1900</option>
+                                                                    <option value="1899">1899</option>
+                                                                    <option value="1898">1898</option>
+                                                                    <option value="1897">1897</option>
+                                                                    <option value="1896">1896</option>
+                                                                    <option value="1895">1895</option>
+                                                                    <option value="1894">1894</option>
+                                                                    <option value="1893">1893</option>
+                                                                    <option value="1892">1892</option>
+                                                                    <option value="1891">1891</option>
+                                                                    <option value="1890">1890</option>
+                                                                    <option value="1889">1889</option>
+                                                                    <option value="1888">1888</option>
+                                                                    <option value="1887">1887</option>
+                                                                    <option value="1886">1886</option>
+                                                                    <option value="1885">1885</option>
+                                                                    <option value="1884">1884</option>
+                                                                    <option value="1883">1883</option>
+                                                                    <option value="1882">1882</option>
+                                                                    <option value="1881">1881</option>
+                                                                    <option value="1880">1880</option>
+                                                                    <option value="1879">1879</option>
+                                                                    <option value="1878">1878</option>
+                                                                    <option value="1877">1877</option>
+                                                                    <option value="1876">1876</option>
+                                                                    <option value="1875">1875</option>
+                                                                    <option value="1874">1874</option>
+                                                                    <option value="1873">1873</option>
+                                                                    <option value="1872">1872</option>
+                                                                    <option value="1871">1871</option>
+                                                                    <option value="1870">1870</option>
+                                                                    <option value="1869">1869</option>
+                                                                    <option value="1868">1868</option>
+                                                                    <option value="1867">1867</option>
+                                                                    <option value="1866">1866</option>
+                                                                    <option value="1865">1865</option>
+                                                                    <option value="1864">1864</option>
+                                                                    <option value="1863">1863</option>
+                                                                    <option value="1862">1862</option>
+                                                                    <option value="1861">1861</option>
+                                                                    <option value="1860">1860</option>
+                                                                    <option value="1859">1859</option>
+                                                                    <option value="1858">1858</option>
+                                                                    <option value="1857">1857</option>
+                                                                    <option value="1856">1856</option>
+                                                                    <option value="1855">1855</option>
+                                                                    <option value="1854">1854</option>
+                                                                    <option value="1853">1853</option>
+                                                                    <option value="1852">1852</option>
+                                                                    <option value="1851">1851</option>
+                                                                    <option value="1850">1850</option>
+                                                                    <option value="1849">1849</option>
+                                                                    <option value="1848">1848</option>
+                                                                    <option value="1847">1847</option>
+                                                                    <option value="1846">1846</option>
+                                                                    <option value="1845">1845</option>
+                                                                    <option value="1844">1844</option>
+                                                                    <option value="1843">1843</option>
+                                                                    <option value="1842">1842</option>
+                                                                    <option value="1841">1841</option>
+                                                                    <option value="1840">1840</option>
+                                                                    <option value="1839">1839</option>
+                                                                    <option value="1838">1838</option>
+                                                                    <option value="1837">1837</option>
+                                                                    <option value="1836">1836</option>
+                                                                    <option value="1835">1835</option>
+                                                                    <option value="1834">1834</option>
+                                                                    <option value="1833">1833</option>
+                                                                    <option value="1832">1832</option>
+                                                                    <option value="1831">1831</option>
+                                                                    <option value="1830">1830</option>
+                                                                    <option value="1829">1829</option>
+                                                                    <option value="1828">1828</option>
+                                                                    <option value="1827">1827</option>
+                                                                    <option value="1826">1826</option>
+                                                                    <option value="1825">1825</option>
+                                                                    <option value="1824">1824</option>
+                                                                    <option value="1823">1823</option>
+                                                                    <option value="1822">1822</option>
+                                                                    <option value="1821">1821</option>
+                                                                    <option value="1820">1820</option>
+                                                                    <option value="1819">1819</option>
+                                                                    <option value="1818">1818</option>
+                                                                    <option value="1817">1817</option>
+                                                                    <option value="1816">1816</option>
+                                                                    <option value="1815">1815</option>
+                                                                    <option value="1814">1814</option>
+                                                                    <option value="1813">1813</option>
+                                                                    <option value="1812">1812</option>
+                                                                    <option value="1811">1811</option>
+                                                                    <option value="1810">1810</option>
+                                                                    <option value="1809">1809</option>
+                                                                    <option value="1808">1808</option>
+                                                                    <option value="1807">1807</option>
+                                                                    <option value="1806">1806</option>
+                                                                    <option value="1805">1805</option>
+                                                                    <option value="1804">1804</option>
+                                                                    <option value="1803">1803</option>
+                                                                    <option value="1802">1802</option>
+                                                                    <option value="1801">1801</option>
+                                                                    <option value="1800">1800</option>
+                                                            </select>
+                        </div>
+                        <div>
+                            <select name="yearTo" id="sf_yearTo">
+                                <option value="">To any year</option>
+                                                                    <option value="2024">2024</option>
+                                                                    <option value="2023">2023</option>
+                                                                    <option value="2022">2022</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2018">2018</option>
+                                                                    <option value="2017">2017</option>
+                                                                    <option value="2016">2016</option>
+                                                                    <option value="2015">2015</option>
+                                                                    <option value="2014">2014</option>
+                                                                    <option value="2013">2013</option>
+                                                                    <option value="2012">2012</option>
+                                                                    <option value="2011">2011</option>
+                                                                    <option value="2010">2010</option>
+                                                                    <option value="2009">2009</option>
+                                                                    <option value="2008">2008</option>
+                                                                    <option value="2007">2007</option>
+                                                                    <option value="2006">2006</option>
+                                                                    <option value="2005">2005</option>
+                                                                    <option value="2004">2004</option>
+                                                                    <option value="2003">2003</option>
+                                                                    <option value="2002">2002</option>
+                                                                    <option value="2001">2001</option>
+                                                                    <option value="2000">2000</option>
+                                                                    <option value="1999">1999</option>
+                                                                    <option value="1998">1998</option>
+                                                                    <option value="1997">1997</option>
+                                                                    <option value="1996">1996</option>
+                                                                    <option value="1995">1995</option>
+                                                                    <option value="1994">1994</option>
+                                                                    <option value="1993">1993</option>
+                                                                    <option value="1992">1992</option>
+                                                                    <option value="1991">1991</option>
+                                                                    <option value="1990">1990</option>
+                                                                    <option value="1989">1989</option>
+                                                                    <option value="1988">1988</option>
+                                                                    <option value="1987">1987</option>
+                                                                    <option value="1986">1986</option>
+                                                                    <option value="1985">1985</option>
+                                                                    <option value="1984">1984</option>
+                                                                    <option value="1983">1983</option>
+                                                                    <option value="1982">1982</option>
+                                                                    <option value="1981">1981</option>
+                                                                    <option value="1980">1980</option>
+                                                                    <option value="1979">1979</option>
+                                                                    <option value="1978">1978</option>
+                                                                    <option value="1977">1977</option>
+                                                                    <option value="1976">1976</option>
+                                                                    <option value="1975">1975</option>
+                                                                    <option value="1974">1974</option>
+                                                                    <option value="1973">1973</option>
+                                                                    <option value="1972">1972</option>
+                                                                    <option value="1971">1971</option>
+                                                                    <option value="1970">1970</option>
+                                                                    <option value="1969">1969</option>
+                                                                    <option value="1968">1968</option>
+                                                                    <option value="1967">1967</option>
+                                                                    <option value="1966">1966</option>
+                                                                    <option value="1965">1965</option>
+                                                                    <option value="1964">1964</option>
+                                                                    <option value="1963">1963</option>
+                                                                    <option value="1962">1962</option>
+                                                                    <option value="1961">1961</option>
+                                                                    <option value="1960">1960</option>
+                                                                    <option value="1959">1959</option>
+                                                                    <option value="1958">1958</option>
+                                                                    <option value="1957">1957</option>
+                                                                    <option value="1956">1956</option>
+                                                                    <option value="1955">1955</option>
+                                                                    <option value="1954">1954</option>
+                                                                    <option value="1953">1953</option>
+                                                                    <option value="1952">1952</option>
+                                                                    <option value="1951">1951</option>
+                                                                    <option value="1950">1950</option>
+                                                                    <option value="1949">1949</option>
+                                                                    <option value="1948">1948</option>
+                                                                    <option value="1947">1947</option>
+                                                                    <option value="1946">1946</option>
+                                                                    <option value="1945">1945</option>
+                                                                    <option value="1944">1944</option>
+                                                                    <option value="1943">1943</option>
+                                                                    <option value="1942">1942</option>
+                                                                    <option value="1941">1941</option>
+                                                                    <option value="1940">1940</option>
+                                                                    <option value="1939">1939</option>
+                                                                    <option value="1938">1938</option>
+                                                                    <option value="1937">1937</option>
+                                                                    <option value="1936">1936</option>
+                                                                    <option value="1935">1935</option>
+                                                                    <option value="1934">1934</option>
+                                                                    <option value="1933">1933</option>
+                                                                    <option value="1932">1932</option>
+                                                                    <option value="1931">1931</option>
+                                                                    <option value="1930">1930</option>
+                                                                    <option value="1929">1929</option>
+                                                                    <option value="1928">1928</option>
+                                                                    <option value="1927">1927</option>
+                                                                    <option value="1926">1926</option>
+                                                                    <option value="1925">1925</option>
+                                                                    <option value="1924">1924</option>
+                                                                    <option value="1923">1923</option>
+                                                                    <option value="1922">1922</option>
+                                                                    <option value="1921">1921</option>
+                                                                    <option value="1920">1920</option>
+                                                                    <option value="1919">1919</option>
+                                                                    <option value="1918">1918</option>
+                                                                    <option value="1917">1917</option>
+                                                                    <option value="1916">1916</option>
+                                                                    <option value="1915">1915</option>
+                                                                    <option value="1914">1914</option>
+                                                                    <option value="1913">1913</option>
+                                                                    <option value="1912">1912</option>
+                                                                    <option value="1911">1911</option>
+                                                                    <option value="1910">1910</option>
+                                                                    <option value="1909">1909</option>
+                                                                    <option value="1908">1908</option>
+                                                                    <option value="1907">1907</option>
+                                                                    <option value="1906">1906</option>
+                                                                    <option value="1905">1905</option>
+                                                                    <option value="1904">1904</option>
+                                                                    <option value="1903">1903</option>
+                                                                    <option value="1902">1902</option>
+                                                                    <option value="1901">1901</option>
+                                                                    <option value="1900">1900</option>
+                                                                    <option value="1899">1899</option>
+                                                                    <option value="1898">1898</option>
+                                                                    <option value="1897">1897</option>
+                                                                    <option value="1896">1896</option>
+                                                                    <option value="1895">1895</option>
+                                                                    <option value="1894">1894</option>
+                                                                    <option value="1893">1893</option>
+                                                                    <option value="1892">1892</option>
+                                                                    <option value="1891">1891</option>
+                                                                    <option value="1890">1890</option>
+                                                                    <option value="1889">1889</option>
+                                                                    <option value="1888">1888</option>
+                                                                    <option value="1887">1887</option>
+                                                                    <option value="1886">1886</option>
+                                                                    <option value="1885">1885</option>
+                                                                    <option value="1884">1884</option>
+                                                                    <option value="1883">1883</option>
+                                                                    <option value="1882">1882</option>
+                                                                    <option value="1881">1881</option>
+                                                                    <option value="1880">1880</option>
+                                                                    <option value="1879">1879</option>
+                                                                    <option value="1878">1878</option>
+                                                                    <option value="1877">1877</option>
+                                                                    <option value="1876">1876</option>
+                                                                    <option value="1875">1875</option>
+                                                                    <option value="1874">1874</option>
+                                                                    <option value="1873">1873</option>
+                                                                    <option value="1872">1872</option>
+                                                                    <option value="1871">1871</option>
+                                                                    <option value="1870">1870</option>
+                                                                    <option value="1869">1869</option>
+                                                                    <option value="1868">1868</option>
+                                                                    <option value="1867">1867</option>
+                                                                    <option value="1866">1866</option>
+                                                                    <option value="1865">1865</option>
+                                                                    <option value="1864">1864</option>
+                                                                    <option value="1863">1863</option>
+                                                                    <option value="1862">1862</option>
+                                                                    <option value="1861">1861</option>
+                                                                    <option value="1860">1860</option>
+                                                                    <option value="1859">1859</option>
+                                                                    <option value="1858">1858</option>
+                                                                    <option value="1857">1857</option>
+                                                                    <option value="1856">1856</option>
+                                                                    <option value="1855">1855</option>
+                                                                    <option value="1854">1854</option>
+                                                                    <option value="1853">1853</option>
+                                                                    <option value="1852">1852</option>
+                                                                    <option value="1851">1851</option>
+                                                                    <option value="1850">1850</option>
+                                                                    <option value="1849">1849</option>
+                                                                    <option value="1848">1848</option>
+                                                                    <option value="1847">1847</option>
+                                                                    <option value="1846">1846</option>
+                                                                    <option value="1845">1845</option>
+                                                                    <option value="1844">1844</option>
+                                                                    <option value="1843">1843</option>
+                                                                    <option value="1842">1842</option>
+                                                                    <option value="1841">1841</option>
+                                                                    <option value="1840">1840</option>
+                                                                    <option value="1839">1839</option>
+                                                                    <option value="1838">1838</option>
+                                                                    <option value="1837">1837</option>
+                                                                    <option value="1836">1836</option>
+                                                                    <option value="1835">1835</option>
+                                                                    <option value="1834">1834</option>
+                                                                    <option value="1833">1833</option>
+                                                                    <option value="1832">1832</option>
+                                                                    <option value="1831">1831</option>
+                                                                    <option value="1830">1830</option>
+                                                                    <option value="1829">1829</option>
+                                                                    <option value="1828">1828</option>
+                                                                    <option value="1827">1827</option>
+                                                                    <option value="1826">1826</option>
+                                                                    <option value="1825">1825</option>
+                                                                    <option value="1824">1824</option>
+                                                                    <option value="1823">1823</option>
+                                                                    <option value="1822">1822</option>
+                                                                    <option value="1821">1821</option>
+                                                                    <option value="1820">1820</option>
+                                                                    <option value="1819">1819</option>
+                                                                    <option value="1818">1818</option>
+                                                                    <option value="1817">1817</option>
+                                                                    <option value="1816">1816</option>
+                                                                    <option value="1815">1815</option>
+                                                                    <option value="1814">1814</option>
+                                                                    <option value="1813">1813</option>
+                                                                    <option value="1812">1812</option>
+                                                                    <option value="1811">1811</option>
+                                                                    <option value="1810">1810</option>
+                                                                    <option value="1809">1809</option>
+                                                                    <option value="1808">1808</option>
+                                                                    <option value="1807">1807</option>
+                                                                    <option value="1806">1806</option>
+                                                                    <option value="1805">1805</option>
+                                                                    <option value="1804">1804</option>
+                                                                    <option value="1803">1803</option>
+                                                                    <option value="1802">1802</option>
+                                                                    <option value="1801">1801</option>
+                                                                    <option value="1800">1800</option>
+                                                            </select>
+                        </div>
+                        <div>
+                            <select name="languages[]" id="sf_languages" multiple>
+                                <option>Any Language</option>
+                                                                                                                                    <option value="arabic">Arabic</option>
+                                                                    <option value="armenian">Armenian</option>
+                                                                    <option value="azerbaijani">Azerbaijani</option>
+                                                                    <option value="bengali">Bengali</option>
+                                                                    <option value="chinese">Chinese</option>
+                                                                    <option value="dutch">Dutch</option>
+                                                                    <option value="english">English</option>
+                                                                    <option value="french">French</option>
+                                                                    <option value="georgian">Georgian</option>
+                                                                    <option value="german">German</option>
+                                                                    <option value="greek">Greek</option>
+                                                                    <option value="hindi">Hindi</option>
+                                                                    <option value="indonesian">Indonesian</option>
+                                                                    <option value="italian">Italian</option>
+                                                                    <option value="japanese">Japanese</option>
+                                                                    <option value="korean">Korean</option>
+                                                                    <option value="malaysian">Malaysian</option>
+                                                                    <option value="pashto">Pashto</option>
+                                                                    <option value="polish">Polish</option>
+                                                                    <option value="portuguese">Portuguese</option>
+                                                                    <option value="russian">Russian</option>
+                                                                    <option value="serbian">Serbian</option>
+                                                                    <option value="spanish">Spanish</option>
+                                                                    <option value="telugu">Telugu</option>
+                                                                    <option value="thai">Thai</option>
+                                                                    <option value="traditional chinese">Traditional Chinese</option>
+                                                                    <option value="turkish">Turkish</option>
+                                                                    <option value="ukrainian">Ukrainian</option>
+                                                                    <option value="urdu">Urdu</option>
+                                                                    <option value="vietnamese">Vietnamese</option>
+                                                                                                    <option value="abkhazian">Abkhazian</option>
+                                                                    <option value="afar">Afar</option>
+                                                                    <option value="afrikaans">Afrikaans</option>
+                                                                    <option value="akan">Akan</option>
+                                                                    <option value="albanian">Albanian</option>
+                                                                    <option value="amharic">Amharic</option>
+                                                                    <option value="aragonese">Aragonese</option>
+                                                                    <option value="assamese">Assamese</option>
+                                                                    <option value="avaric">Avaric</option>
+                                                                    <option value="avestan">Avestan</option>
+                                                                    <option value="aymara">Aymara</option>
+                                                                    <option value="bambara">Bambara</option>
+                                                                    <option value="bashkir">Bashkir</option>
+                                                                    <option value="basque">Basque</option>
+                                                                    <option value="belarusian">Belarusian</option>
+                                                                    <option value="berber">Berber</option>
+                                                                    <option value="bislama">Bislama</option>
+                                                                    <option value="bosnian">Bosnian</option>
+                                                                    <option value="brazilian">Brazilian Portuguese</option>
+                                                                    <option value="breton">Breton</option>
+                                                                    <option value="bulgarian">Bulgarian</option>
+                                                                    <option value="burmese">Burmese</option>
+                                                                    <option value="catalan">Catalan</option>
+                                                                    <option value="central_khmer">Central Khmer</option>
+                                                                    <option value="chamorro">Chamorro</option>
+                                                                    <option value="chechen">Chechen</option>
+                                                                    <option value="chichewa">Chichewa</option>
+                                                                    <option value="church_slavic">Church Slavic</option>
+                                                                    <option value="chuvash">Chuvash</option>
+                                                                    <option value="cornish">Cornish</option>
+                                                                    <option value="corsican">Corsican</option>
+                                                                    <option value="cree">Cree</option>
+                                                                    <option value="crimean">Crimean Tatar</option>
+                                                                    <option value="croatian">Croatian</option>
+                                                                    <option value="czech">Czech</option>
+                                                                    <option value="danish">Danish</option>
+                                                                    <option value="divehi">Divehi</option>
+                                                                    <option value="dzongkha">Dzongkha</option>
+                                                                    <option value="esperanto">Esperanto</option>
+                                                                    <option value="estonian">Estonian</option>
+                                                                    <option value="ewe">Ewe</option>
+                                                                    <option value="faroese">Faroese</option>
+                                                                    <option value="fijian">Fijian</option>
+                                                                    <option value="finnish">Finnish</option>
+                                                                    <option value="fulah">Fulah</option>
+                                                                    <option value="gaelic">Gaelic</option>
+                                                                    <option value="galician">Galician</option>
+                                                                    <option value="ganda">Ganda</option>
+                                                                    <option value="guarani">Guarani</option>
+                                                                    <option value="gujarati">Gujarati</option>
+                                                                    <option value="haitian">Haitian</option>
+                                                                    <option value="hausa">Hausa</option>
+                                                                    <option value="hebrew">Hebrew</option>
+                                                                    <option value="herero">Herero</option>
+                                                                    <option value="hiri_motu">Hiri Motu</option>
+                                                                    <option value="hungarian">Hungarian</option>
+                                                                    <option value="icelandic">Icelandic</option>
+                                                                    <option value="ido">Ido</option>
+                                                                    <option value="igbo">Igbo</option>
+                                                                    <option value="indigenous">Indigenous</option>
+                                                                    <option value="interlingua">Interlingua</option>
+                                                                    <option value="inuktitut">Inuktitut</option>
+                                                                    <option value="inupiaq">Inupiaq</option>
+                                                                    <option value="irish">Irish</option>
+                                                                    <option value="javanese">Javanese</option>
+                                                                    <option value="kalaallisut">Kalaallisut</option>
+                                                                    <option value="kannada">Kannada</option>
+                                                                    <option value="kanuri">Kanuri</option>
+                                                                    <option value="kashmiri">Kashmiri</option>
+                                                                    <option value="kazakh">Kazakh</option>
+                                                                    <option value="kikuyu">Kikuyu</option>
+                                                                    <option value="kinyarwanda">Kinyarwanda</option>
+                                                                    <option value="komi">Komi</option>
+                                                                    <option value="kongo">Kongo</option>
+                                                                    <option value="kuanyama">Kuanyama</option>
+                                                                    <option value="kurdish">Kurdish</option>
+                                                                    <option value="kyrgyz">Kirghiz</option>
+                                                                    <option value="lao">Lao</option>
+                                                                    <option value="latin">Latin</option>
+                                                                    <option value="latvian">Latvian</option>
+                                                                    <option value="limburgan">Limburgan</option>
+                                                                    <option value="lingala">Lingala</option>
+                                                                    <option value="lithuanian">Lithuanian</option>
+                                                                    <option value="luba-katanga">Luba-Katanga</option>
+                                                                    <option value="luxembourgish">Luxembourgish</option>
+                                                                    <option value="macedonian">Macedonian</option>
+                                                                    <option value="malagasy">Malagasy</option>
+                                                                    <option value="malayalam">Malayalam</option>
+                                                                    <option value="maltese">Maltese</option>
+                                                                    <option value="manx">Manx</option>
+                                                                    <option value="maori">Maori</option>
+                                                                    <option value="marathi">Marathi</option>
+                                                                    <option value="marshallese">Marshallese</option>
+                                                                    <option value="moldavian">Moldavian</option>
+                                                                    <option value="mongolian">Mongolian</option>
+                                                                    <option value="nauru">Nauru</option>
+                                                                    <option value="navajo">Navajo</option>
+                                                                    <option value="ndonga">Ndonga</option>
+                                                                    <option value="nepali">Nepali</option>
+                                                                    <option value="north_ndebele">North Ndebele</option>
+                                                                    <option value="northern_sami">Northern Sami</option>
+                                                                    <option value="norwegian">Norwegian</option>
+                                                                    <option value="norwegian_bokmal">Norwegian Bokmål</option>
+                                                                    <option value="norwegian_nynorsk">Norwegian Nynorsk</option>
+                                                                    <option value="occidental">Occidental</option>
+                                                                    <option value="occitan">Occitan</option>
+                                                                    <option value="odia">Odia</option>
+                                                                    <option value="ojibwa">Ojibwa</option>
+                                                                    <option value="oromo">Oromo</option>
+                                                                    <option value="ossetian">Ossetian</option>
+                                                                    <option value="pali">Pali</option>
+                                                                    <option value="persian">Persian</option>
+                                                                    <option value="punjabi">Punjabi</option>
+                                                                    <option value="quechua">Quechua</option>
+                                                                    <option value="romanian">Romanian</option>
+                                                                    <option value="romansh">Romansh</option>
+                                                                    <option value="rundi">Rundi</option>
+                                                                    <option value="samoan">Samoan</option>
+                                                                    <option value="sango">Sango</option>
+                                                                    <option value="sanskrit">Sanskrit</option>
+                                                                    <option value="sardinian">Sardinian</option>
+                                                                    <option value="shona">Shona</option>
+                                                                    <option value="sichuan_yi">Sichuan Yi</option>
+                                                                    <option value="sindhi">Sindhi</option>
+                                                                    <option value="sinhala">Sinhala</option>
+                                                                    <option value="slovak">Slovak</option>
+                                                                    <option value="slovenian">Slovenian</option>
+                                                                    <option value="somali">Somali</option>
+                                                                    <option value="south_ndebele">South Ndebele</option>
+                                                                    <option value="southern_sotho">Southern Sotho</option>
+                                                                    <option value="sundanese">Sundanese</option>
+                                                                    <option value="swahili">Swahili</option>
+                                                                    <option value="swati">Swati</option>
+                                                                    <option value="swedish">Swedish</option>
+                                                                    <option value="tagalog">Tagalog (Filipino)</option>
+                                                                    <option value="tahitian">Tahitian</option>
+                                                                    <option value="tajik">Tajik</option>
+                                                                    <option value="tamil">Tamil</option>
+                                                                    <option value="tatar">Tatar</option>
+                                                                    <option value="tibetan">Tibetan</option>
+                                                                    <option value="tigrinya">Tigrinya</option>
+                                                                    <option value="tonga">Tonga</option>
+                                                                    <option value="tsonga">Tsonga</option>
+                                                                    <option value="tswana">Tswana</option>
+                                                                    <option value="turkmen">Turkmen</option>
+                                                                    <option value="twi">Twi</option>
+                                                                    <option value="uighur">Uighur</option>
+                                                                    <option value="uzbek">Uzbek</option>
+                                                                    <option value="venda">Venda</option>
+                                                                    <option value="volapuk">Volapük</option>
+                                                                    <option value="walloon">Walloon</option>
+                                                                    <option value="welsh">Welsh</option>
+                                                                    <option value="western_frisian">Western Frisian</option>
+                                                                    <option value="wolof">Wolof</option>
+                                                                    <option value="xhosa">Xhosa</option>
+                                                                    <option value="yiddish">Yiddish</option>
+                                                                    <option value="yoruba">Yoruba</option>
+                                                                    <option value="zhuang">Zhuang</option>
+                                                                    <option value="zulu">Zulu</option>
+                                                            </select>
+                        </div>
+                        <div>
+                            <select name="extensions[]" id="sf_extensions" multiple>
+                                <option>Any Extension</option>
+                                <                                <                            </select>
+                        </div>
+                    </div><!-- end  no-JS search filters -->
+                </div>
+
+                <!-- JS search filters -->
+                <div class="hidden" id="advSearch">
+                                        <span class="input_wrap__checkbox mr-10">
+                        <input type="checkbox" name="e" value="1" id="ftcb" >
+                        <label for="ftcb">Exact matching</label>
+                    </span>
+                                        <div class="mr-10" id="wrapYearFrom"></div>
+                    <div class="mr-10" id="wrapYearTo"></div>
+                    <div class="mr-10" id="wrapLang"></div>
+                    <div class="mr-10" id="wrapExt"></div>
+                    <div class="search-settings-wrap">
+                        <div class="search-settings">
+                            <a href="#" class="saving-search-settings hidden"
+                               data-title_save="Save filters"
+                               data-title_saved="Saved"
+                               onclick="ZLibrarySearch.saveSearchSettings(); return false;">
+                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M0 2C0 0.89543 0.895431 0 2 0H32C33.1046 0 34 0.895431 34 2V32C34 33.1046 33.1046 34 32 34H2C0.89543 34 0 33.1046 0 32V2Z" fill="white"/>
+                                   <path class="svg__body" d="M13.6667 21.6667V17.6667H20.3333V21.6667H21.6667V14.2187L19.7813 12.3333H12.3333V21.6667H13.6667ZM11.6667 11H20.3333L23 13.6667V22.3333C23 22.5101 22.9298 22.6797 22.8047 22.8047C22.6797 22.9298 22.5101 23 22.3333 23H11.6667C11.4899 23 11.3203 22.9298 11.1953 22.8047C11.0702 22.6797 11 22.5101 11 22.3333V11.6667C11 11.4899 11.0702 11.3203 11.1953 11.1953C11.3203 11.0702 11.4899 11 11.6667 11ZM15 19V21.6667H19V19H15Z" fill="#49afd0"/>
+                                   <g class="svg__body-check-mark" transform="translate(18 18)">
+                                       <circle cx="4.5" cy="4.5" r="4" fill="white" stroke="#49AFD0"/>
+                                       <path d="M2.25 4.5L3.9375 6.1875L6.75 3.375" stroke="#49AFD0"/>
+                                   </g>
+                                   <path class="svg__border" d="M2 1H32V-1H2V1ZM33 2V32H35V2H33ZM32 33H2V35H32V33ZM1 32V2H-1V32H1ZM2 33C1.44772 33 1 32.5523 1 32H-1C-1 33.6569 0.343146 35 2 35V33ZM33 32C33 32.5523 32.5523 33 32 33V35C33.6569 35 35 33.6569 35 32H33ZM32 1C32.5523 1 33 1.44772 33 2H35C35 0.343146 33.6569 -1 32 -1V1ZM2 -1C0.343146 -1 -1 0.343146 -1 2H1C1 1.44772 1.44772 1 2 1V-1Z" fill="#D9D9D9"/>
+                               </svg>
+                            </a>
+                            <a href="#" class="clear-search-settings hidden"
+                               title="Reset filters"
+                               onclick="ZLibrarySearch.clearFilters(); return false;">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2C0 0.89543 0.895431 0 2 0H32C33.1046 0 34 0.895431 34 2V32C34 33.1046 33.1046 34 32 34H2C0.89543 34 0 33.1046 0 32V2Z" fill="white"/>
+                                    <path class="svg__body" d="M17 16.0573L20.3 12.7573L21.2427 13.7L17.9427 17L21.2427 20.3L20.3 21.2427L17 17.9427L13.7 21.2427L12.7573 20.3L16.0573 17L12.7573 13.7L13.7 12.7573L17 16.0573Z" fill="#8C8C8C"/>
+                                    <path class="svg__border" d="M2 1H32V-1H2V1ZM33 2V32H35V2H33ZM32 33H2V35H32V33ZM1 32V2H-1V32H1ZM2 33C1.44772 33 1 32.5523 1 32H-1C-1 33.6569 0.343146 35 2 35V33ZM33 32C33 32.5523 32.5523 33 32 33V35C33.6569 35 35 33.6569 35 32H33ZM32 1C32.5523 1 33 1.44772 33 2H35C35 0.343146 33.6569 -1 32 -1V1ZM2 -1C0.343146 -1 -1 0.343146 -1 2H1C1 1.44772 1.44772 1 2 1V-1Z" fill="#D9D9D9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                            <!-- fb like here -->
+                    </div>
+                    </form>
+</div>
+
+<script>
+    // remove non-JS filters if JS engine enabled
+    $("#advSearch-noJS").remove();
+
+    setTimeout(function () {
+        var searchField = document.getElementById('searchFieldx');
+        var searchFieldTopPosition;
+
+        if (searchField) {
+            searchFieldTopPosition = searchField.getBoundingClientRect().top;
+
+            if (searchFieldTopPosition > 0) {
+                searchField.focus();
+            }
+        }
+    }, 0);
+
+    $("#searchForm").submit(function ()
+    {
+                // if ($('#searchFieldx').val() != '') {
+        //     new ZLibraryResponse('/papi/utils/log-search-query', {query: $('#searchFieldx').val()})
+        //         .disableNotify()
+        //         .fetch()
+        // }
+
+        $(this).children('select[value=""]').attr("disabled", "disabled");
+        $.each($("#searchForm select, #searchForm input"), function (key, value) {
+            if ($(this).val() == "") {
+                $(this).attr("disabled", "disabled");
+            }
+        });
+
+        const action = $(this).attr('action')
+        if (action.indexOf('/s/') === 0 || action.indexOf('/fulltext/') === 0) {
+            const format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+            const $input = $(this).find('input[name=q]')
+            if ($input.val().length) {
+                if (!format.test($input.val())) {
+                    $(this).attr('action', action + rawurlencode($input.val()))
+                    $input.attr("disabled", "disabled")
+                }
+            }
+        }
+
+        return true;
+    });
+
+    $('#ftcb2').popover({
+        placement: 'bottom',
+        html: true
+    });
+
+    $('#ftcb1').popover({
+        placement: 'bottom',
+        html: true
+    });
+
+    function initializePopoverHelper() {
+        if ($('#ftcb').length) {
+            
+                        if($('#ftcb').is(':checked')){
+                wordsContent = 'Search for articles containing ALL specified terms ANYWHERE in the text. <div class="etcFt">..text text text <b>my</b> ..text text text text text .. <b>search</b> ..text text text text text.. <b>query</b>.. text text text <b>works</b> ..text text.. <b>good</b> text..</div>'
+                phraseContent = 'Search for articles <i>exactly</i> match specified phrase. <div class="etcFt">..text text text text text text.. <b>my search query works good</b> ..text text text text text text text text text text text text..</div>'
+            }else{
+                wordsContent = 'Search for articles containing <i>most of</i> specified terms (>75%) ANYWHERE in the text. <div class="etcFt">..text text text <b>my</b> ..text text text text text .. <b>search</b> ..text text text text text.. <b>query</b> ..text text.. <b>works</b> ..text text..</div>'
+                phraseContent = 'Search for articles containing ALL specified words that are <i>next to each other</i> and in the <i>same order</i>. <div class="etcFt">..text text text text text text.. <b>my</b> long <b>search query</b> will <b>works good</b> ..text text text text text text text text text text text text..</div>'
+            }
+
+            $('#ftcb2').data('bs.popover').options.content = wordsContent;
+            $('#ftcb1').data('bs.popover').options.content = phraseContent;
+        }
+    }
+
+    $(function() {
+        
+        // Preserving search query on search mode change.
+        $('.change_search_mode').click(function(event) {
+            event.preventDefault()
+
+            if ($(this).closest('li').hasClass('active')) {
+                return
+            }
+
+            const isInSearch = $('#searchFieldx').val() !== null
+
+            // if on `search results` page, then adjust form action and re-submit form.
+            if (isInSearch) {
+                const formActionOld = document.forms.searchForm.action
+                let formActionNew = formActionOld.substring(0, formActionOld.lastIndexOf('/', formActionOld.length - 2))
+                formActionNew += formActionOld.includes('fulltext') ? '/s/' : '/fulltext/'
+                document.forms.searchForm.action = formActionNew
+                document.forms.searchForm.submit()
+                return false
+            }
+
+            const newURL = new URL(this.href)
+            const searchForm = document.forms.searchForm
+
+            // gathering only search related input values into `newURL`
+            searchForm.elements.forEach((element) => {
+                if (element.name === '') return
+                if (['checkbox', 'radio'].includes(element.type) && element.checked === false) return
+
+                newURL.searchParams.append(element.name, element.value)
+            })
+
+            window.location.href = newURL
+        })
+    });
+</script>
+
+<script>
+    $(function(){
+        new ZLibraryMultiselect({
+            wrapSelector: '#wrapYearFrom',
+            relationWrapSelector: '#wrapYearTo',
+            relationType: 'rangeStart',
+            useTargetSelect: true,
+            valuesName: 'yearFrom',
+            sortType: 'number',
+            isReversSort: true,
+            placeholder: 'Year from',
+            textForNone: 'Any year',
+            rowData: {"items":[{"text":2024,"value":2024},{"text":2023,"value":2023},{"text":2022,"value":2022},{"text":2021,"value":2021},{"text":2020,"value":2020},{"text":2019,"value":2019},{"text":2018,"value":2018},{"text":2017,"value":2017},{"text":2016,"value":2016},{"text":2015,"value":2015},{"text":2014,"value":2014},{"text":2013,"value":2013},{"text":2012,"value":2012},{"text":2011,"value":2011},{"text":2010,"value":2010},{"text":2009,"value":2009},{"text":2008,"value":2008},{"text":2007,"value":2007},{"text":2006,"value":2006},{"text":2005,"value":2005},{"text":2004,"value":2004},{"text":2003,"value":2003},{"text":2002,"value":2002},{"text":2001,"value":2001},{"text":2000,"value":2000},{"text":1999,"value":1999},{"text":1998,"value":1998},{"text":1997,"value":1997},{"text":1996,"value":1996},{"text":1995,"value":1995},{"text":1994,"value":1994},{"text":1993,"value":1993},{"text":1992,"value":1992},{"text":1991,"value":1991},{"text":1990,"value":1990},{"text":1989,"value":1989},{"text":1988,"value":1988},{"text":1987,"value":1987},{"text":1986,"value":1986},{"text":1985,"value":1985},{"text":1984,"value":1984},{"text":1983,"value":1983},{"text":1982,"value":1982},{"text":1981,"value":1981},{"text":1980,"value":1980},{"text":1979,"value":1979},{"text":1978,"value":1978},{"text":1977,"value":1977},{"text":1976,"value":1976},{"text":1975,"value":1975},{"text":1974,"value":1974},{"text":1973,"value":1973},{"text":1972,"value":1972},{"text":1971,"value":1971},{"text":1970,"value":1970},{"text":1969,"value":1969},{"text":1968,"value":1968},{"text":1967,"value":1967},{"text":1966,"value":1966},{"text":1965,"value":1965},{"text":1964,"value":1964},{"text":1963,"value":1963},{"text":1962,"value":1962},{"text":1961,"value":1961},{"text":1960,"value":1960},{"text":1959,"value":1959},{"text":1958,"value":1958},{"text":1957,"value":1957},{"text":1956,"value":1956},{"text":1955,"value":1955},{"text":1954,"value":1954},{"text":1953,"value":1953},{"text":1952,"value":1952},{"text":1951,"value":1951},{"text":1950,"value":1950},{"text":1949,"value":1949},{"text":1948,"value":1948},{"text":1947,"value":1947},{"text":1946,"value":1946},{"text":1945,"value":1945},{"text":1944,"value":1944},{"text":1943,"value":1943},{"text":1942,"value":1942},{"text":1941,"value":1941},{"text":1940,"value":1940},{"text":1939,"value":1939},{"text":1938,"value":1938},{"text":1937,"value":1937},{"text":1936,"value":1936},{"text":1935,"value":1935},{"text":1934,"value":1934},{"text":1933,"value":1933},{"text":1932,"value":1932},{"text":1931,"value":1931},{"text":1930,"value":1930},{"text":1929,"value":1929},{"text":1928,"value":1928},{"text":1927,"value":1927},{"text":1926,"value":1926},{"text":1925,"value":1925},{"text":1924,"value":1924},{"text":1923,"value":1923},{"text":1922,"value":1922},{"text":1921,"value":1921},{"text":1920,"value":1920},{"text":1919,"value":1919},{"text":1918,"value":1918},{"text":1917,"value":1917},{"text":1916,"value":1916},{"text":1915,"value":1915},{"text":1914,"value":1914},{"text":1913,"value":1913},{"text":1912,"value":1912},{"text":1911,"value":1911},{"text":1910,"value":1910},{"text":1909,"value":1909},{"text":1908,"value":1908},{"text":1907,"value":1907},{"text":1906,"value":1906},{"text":1905,"value":1905},{"text":1904,"value":1904},{"text":1903,"value":1903},{"text":1902,"value":1902},{"text":1901,"value":1901},{"text":1900,"value":1900},{"text":1899,"value":1899},{"text":1898,"value":1898},{"text":1897,"value":1897},{"text":1896,"value":1896},{"text":1895,"value":1895},{"text":1894,"value":1894},{"text":1893,"value":1893},{"text":1892,"value":1892},{"text":1891,"value":1891},{"text":1890,"value":1890},{"text":1889,"value":1889},{"text":1888,"value":1888},{"text":1887,"value":1887},{"text":1886,"value":1886},{"text":1885,"value":1885},{"text":1884,"value":1884},{"text":1883,"value":1883},{"text":1882,"value":1882},{"text":1881,"value":1881},{"text":1880,"value":1880},{"text":1879,"value":1879},{"text":1878,"value":1878},{"text":1877,"value":1877},{"text":1876,"value":1876},{"text":1875,"value":1875},{"text":1874,"value":1874},{"text":1873,"value":1873},{"text":1872,"value":1872},{"text":1871,"value":1871},{"text":1870,"value":1870},{"text":1869,"value":1869},{"text":1868,"value":1868},{"text":1867,"value":1867},{"text":1866,"value":1866},{"text":1865,"value":1865},{"text":1864,"value":1864},{"text":1863,"value":1863},{"text":1862,"value":1862},{"text":1861,"value":1861},{"text":1860,"value":1860},{"text":1859,"value":1859},{"text":1858,"value":1858},{"text":1857,"value":1857},{"text":1856,"value":1856},{"text":1855,"value":1855},{"text":1854,"value":1854},{"text":1853,"value":1853},{"text":1852,"value":1852},{"text":1851,"value":1851},{"text":1850,"value":1850},{"text":1849,"value":1849},{"text":1848,"value":1848},{"text":1847,"value":1847},{"text":1846,"value":1846},{"text":1845,"value":1845},{"text":1844,"value":1844},{"text":1843,"value":1843},{"text":1842,"value":1842},{"text":1841,"value":1841},{"text":1840,"value":1840},{"text":1839,"value":1839},{"text":1838,"value":1838},{"text":1837,"value":1837},{"text":1836,"value":1836},{"text":1835,"value":1835},{"text":1834,"value":1834},{"text":1833,"value":1833},{"text":1832,"value":1832},{"text":1831,"value":1831},{"text":1830,"value":1830},{"text":1829,"value":1829},{"text":1828,"value":1828},{"text":1827,"value":1827},{"text":1826,"value":1826},{"text":1825,"value":1825},{"text":1824,"value":1824},{"text":1823,"value":1823},{"text":1822,"value":1822},{"text":1821,"value":1821},{"text":1820,"value":1820},{"text":1819,"value":1819},{"text":1818,"value":1818},{"text":1817,"value":1817},{"text":1816,"value":1816},{"text":1815,"value":1815},{"text":1814,"value":1814},{"text":1813,"value":1813},{"text":1812,"value":1812},{"text":1811,"value":1811},{"text":1810,"value":1810},{"text":1809,"value":1809},{"text":1808,"value":1808},{"text":1807,"value":1807},{"text":1806,"value":1806},{"text":1805,"value":1805},{"text":1804,"value":1804},{"text":1803,"value":1803},{"text":1802,"value":1802},{"text":1801,"value":1801},{"text":1800,"value":1800}],"selected":[]},
+        });
+
+        new ZLibraryMultiselect({
+            wrapSelector: '#wrapYearTo',
+            relationWrapSelector: '#wrapYearFrom',
+            relationType: 'rangeEnd',
+            useTargetSelect: true,
+            valuesName: 'yearTo',
+            sortType: 'number',
+            isReversSort: true,
+            placeholder: 'Year to',
+            textForNone: 'Any year',
+            rowData: {"items":[{"text":2024,"value":2024},{"text":2023,"value":2023},{"text":2022,"value":2022},{"text":2021,"value":2021},{"text":2020,"value":2020},{"text":2019,"value":2019},{"text":2018,"value":2018},{"text":2017,"value":2017},{"text":2016,"value":2016},{"text":2015,"value":2015},{"text":2014,"value":2014},{"text":2013,"value":2013},{"text":2012,"value":2012},{"text":2011,"value":2011},{"text":2010,"value":2010},{"text":2009,"value":2009},{"text":2008,"value":2008},{"text":2007,"value":2007},{"text":2006,"value":2006},{"text":2005,"value":2005},{"text":2004,"value":2004},{"text":2003,"value":2003},{"text":2002,"value":2002},{"text":2001,"value":2001},{"text":2000,"value":2000},{"text":1999,"value":1999},{"text":1998,"value":1998},{"text":1997,"value":1997},{"text":1996,"value":1996},{"text":1995,"value":1995},{"text":1994,"value":1994},{"text":1993,"value":1993},{"text":1992,"value":1992},{"text":1991,"value":1991},{"text":1990,"value":1990},{"text":1989,"value":1989},{"text":1988,"value":1988},{"text":1987,"value":1987},{"text":1986,"value":1986},{"text":1985,"value":1985},{"text":1984,"value":1984},{"text":1983,"value":1983},{"text":1982,"value":1982},{"text":1981,"value":1981},{"text":1980,"value":1980},{"text":1979,"value":1979},{"text":1978,"value":1978},{"text":1977,"value":1977},{"text":1976,"value":1976},{"text":1975,"value":1975},{"text":1974,"value":1974},{"text":1973,"value":1973},{"text":1972,"value":1972},{"text":1971,"value":1971},{"text":1970,"value":1970},{"text":1969,"value":1969},{"text":1968,"value":1968},{"text":1967,"value":1967},{"text":1966,"value":1966},{"text":1965,"value":1965},{"text":1964,"value":1964},{"text":1963,"value":1963},{"text":1962,"value":1962},{"text":1961,"value":1961},{"text":1960,"value":1960},{"text":1959,"value":1959},{"text":1958,"value":1958},{"text":1957,"value":1957},{"text":1956,"value":1956},{"text":1955,"value":1955},{"text":1954,"value":1954},{"text":1953,"value":1953},{"text":1952,"value":1952},{"text":1951,"value":1951},{"text":1950,"value":1950},{"text":1949,"value":1949},{"text":1948,"value":1948},{"text":1947,"value":1947},{"text":1946,"value":1946},{"text":1945,"value":1945},{"text":1944,"value":1944},{"text":1943,"value":1943},{"text":1942,"value":1942},{"text":1941,"value":1941},{"text":1940,"value":1940},{"text":1939,"value":1939},{"text":1938,"value":1938},{"text":1937,"value":1937},{"text":1936,"value":1936},{"text":1935,"value":1935},{"text":1934,"value":1934},{"text":1933,"value":1933},{"text":1932,"value":1932},{"text":1931,"value":1931},{"text":1930,"value":1930},{"text":1929,"value":1929},{"text":1928,"value":1928},{"text":1927,"value":1927},{"text":1926,"value":1926},{"text":1925,"value":1925},{"text":1924,"value":1924},{"text":1923,"value":1923},{"text":1922,"value":1922},{"text":1921,"value":1921},{"text":1920,"value":1920},{"text":1919,"value":1919},{"text":1918,"value":1918},{"text":1917,"value":1917},{"text":1916,"value":1916},{"text":1915,"value":1915},{"text":1914,"value":1914},{"text":1913,"value":1913},{"text":1912,"value":1912},{"text":1911,"value":1911},{"text":1910,"value":1910},{"text":1909,"value":1909},{"text":1908,"value":1908},{"text":1907,"value":1907},{"text":1906,"value":1906},{"text":1905,"value":1905},{"text":1904,"value":1904},{"text":1903,"value":1903},{"text":1902,"value":1902},{"text":1901,"value":1901},{"text":1900,"value":1900},{"text":1899,"value":1899},{"text":1898,"value":1898},{"text":1897,"value":1897},{"text":1896,"value":1896},{"text":1895,"value":1895},{"text":1894,"value":1894},{"text":1893,"value":1893},{"text":1892,"value":1892},{"text":1891,"value":1891},{"text":1890,"value":1890},{"text":1889,"value":1889},{"text":1888,"value":1888},{"text":1887,"value":1887},{"text":1886,"value":1886},{"text":1885,"value":1885},{"text":1884,"value":1884},{"text":1883,"value":1883},{"text":1882,"value":1882},{"text":1881,"value":1881},{"text":1880,"value":1880},{"text":1879,"value":1879},{"text":1878,"value":1878},{"text":1877,"value":1877},{"text":1876,"value":1876},{"text":1875,"value":1875},{"text":1874,"value":1874},{"text":1873,"value":1873},{"text":1872,"value":1872},{"text":1871,"value":1871},{"text":1870,"value":1870},{"text":1869,"value":1869},{"text":1868,"value":1868},{"text":1867,"value":1867},{"text":1866,"value":1866},{"text":1865,"value":1865},{"text":1864,"value":1864},{"text":1863,"value":1863},{"text":1862,"value":1862},{"text":1861,"value":1861},{"text":1860,"value":1860},{"text":1859,"value":1859},{"text":1858,"value":1858},{"text":1857,"value":1857},{"text":1856,"value":1856},{"text":1855,"value":1855},{"text":1854,"value":1854},{"text":1853,"value":1853},{"text":1852,"value":1852},{"text":1851,"value":1851},{"text":1850,"value":1850},{"text":1849,"value":1849},{"text":1848,"value":1848},{"text":1847,"value":1847},{"text":1846,"value":1846},{"text":1845,"value":1845},{"text":1844,"value":1844},{"text":1843,"value":1843},{"text":1842,"value":1842},{"text":1841,"value":1841},{"text":1840,"value":1840},{"text":1839,"value":1839},{"text":1838,"value":1838},{"text":1837,"value":1837},{"text":1836,"value":1836},{"text":1835,"value":1835},{"text":1834,"value":1834},{"text":1833,"value":1833},{"text":1832,"value":1832},{"text":1831,"value":1831},{"text":1830,"value":1830},{"text":1829,"value":1829},{"text":1828,"value":1828},{"text":1827,"value":1827},{"text":1826,"value":1826},{"text":1825,"value":1825},{"text":1824,"value":1824},{"text":1823,"value":1823},{"text":1822,"value":1822},{"text":1821,"value":1821},{"text":1820,"value":1820},{"text":1819,"value":1819},{"text":1818,"value":1818},{"text":1817,"value":1817},{"text":1816,"value":1816},{"text":1815,"value":1815},{"text":1814,"value":1814},{"text":1813,"value":1813},{"text":1812,"value":1812},{"text":1811,"value":1811},{"text":1810,"value":1810},{"text":1809,"value":1809},{"text":1808,"value":1808},{"text":1807,"value":1807},{"text":1806,"value":1806},{"text":1805,"value":1805},{"text":1804,"value":1804},{"text":1803,"value":1803},{"text":1802,"value":1802},{"text":1801,"value":1801},{"text":1800,"value":1800}],"selected":[]},
+        });
+
+        new ZLibraryMultiselect({
+            wrapSelector: '#wrapLang',
+            useTargetSelect: true,
+            type: 'multiple',
+            multipleCaptionsMode: 'enum',
+            valuesName: 'languages',
+            placeholder: 'Select languages',
+            textForNone: 'Any Language',
+            rowData: {
+                groups: [
+                    {
+                        name: 'popular',
+                        items: [{"text":"Arabic","value":"arabic"},{"text":"Armenian","value":"armenian"},{"text":"Azerbaijani","value":"azerbaijani"},{"text":"Bengali","value":"bengali"},{"text":"Chinese","value":"chinese"},{"text":"Dutch","value":"dutch"},{"text":"English","value":"english"},{"text":"French","value":"french"},{"text":"Georgian","value":"georgian"},{"text":"German","value":"german"},{"text":"Greek","value":"greek"},{"text":"Hindi","value":"hindi"},{"text":"Indonesian","value":"indonesian"},{"text":"Italian","value":"italian"},{"text":"Japanese","value":"japanese"},{"text":"Korean","value":"korean"},{"text":"Malaysian","value":"malaysian"},{"text":"Pashto","value":"pashto"},{"text":"Polish","value":"polish"},{"text":"Portuguese","value":"portuguese"},{"text":"Russian","value":"russian"},{"text":"Serbian","value":"serbian"},{"text":"Spanish","value":"spanish"},{"text":"Telugu","value":"telugu"},{"text":"Thai","value":"thai"},{"text":"Traditional Chinese","value":"traditional chinese"},{"text":"Turkish","value":"turkish"},{"text":"Ukrainian","value":"ukrainian"},{"text":"Urdu","value":"urdu"},{"text":"Vietnamese","value":"vietnamese"}],
+                        selected: [],
+                    },
+                ],
+                items: [{"text":"Abkhazian","value":"abkhazian"},{"text":"Afar","value":"afar"},{"text":"Afrikaans","value":"afrikaans"},{"text":"Akan","value":"akan"},{"text":"Albanian","value":"albanian"},{"text":"Amharic","value":"amharic"},{"text":"Aragonese","value":"aragonese"},{"text":"Assamese","value":"assamese"},{"text":"Avaric","value":"avaric"},{"text":"Avestan","value":"avestan"},{"text":"Aymara","value":"aymara"},{"text":"Bambara","value":"bambara"},{"text":"Bashkir","value":"bashkir"},{"text":"Basque","value":"basque"},{"text":"Belarusian","value":"belarusian"},{"text":"Berber","value":"berber"},{"text":"Bislama","value":"bislama"},{"text":"Bosnian","value":"bosnian"},{"text":"Brazilian Portuguese","value":"brazilian"},{"text":"Breton","value":"breton"},{"text":"Bulgarian","value":"bulgarian"},{"text":"Burmese","value":"burmese"},{"text":"Catalan","value":"catalan"},{"text":"Central Khmer","value":"central_khmer"},{"text":"Chamorro","value":"chamorro"},{"text":"Chechen","value":"chechen"},{"text":"Chichewa","value":"chichewa"},{"text":"Church Slavic","value":"church_slavic"},{"text":"Chuvash","value":"chuvash"},{"text":"Cornish","value":"cornish"},{"text":"Corsican","value":"corsican"},{"text":"Cree","value":"cree"},{"text":"Crimean Tatar","value":"crimean"},{"text":"Croatian","value":"croatian"},{"text":"Czech","value":"czech"},{"text":"Danish","value":"danish"},{"text":"Divehi","value":"divehi"},{"text":"Dzongkha","value":"dzongkha"},{"text":"Esperanto","value":"esperanto"},{"text":"Estonian","value":"estonian"},{"text":"Ewe","value":"ewe"},{"text":"Faroese","value":"faroese"},{"text":"Fijian","value":"fijian"},{"text":"Finnish","value":"finnish"},{"text":"Fulah","value":"fulah"},{"text":"Gaelic","value":"gaelic"},{"text":"Galician","value":"galician"},{"text":"Ganda","value":"ganda"},{"text":"Guarani","value":"guarani"},{"text":"Gujarati","value":"gujarati"},{"text":"Haitian","value":"haitian"},{"text":"Hausa","value":"hausa"},{"text":"Hebrew","value":"hebrew"},{"text":"Herero","value":"herero"},{"text":"Hiri Motu","value":"hiri_motu"},{"text":"Hungarian","value":"hungarian"},{"text":"Icelandic","value":"icelandic"},{"text":"Ido","value":"ido"},{"text":"Igbo","value":"igbo"},{"text":"Indigenous","value":"indigenous"},{"text":"Interlingua","value":"interlingua"},{"text":"Inuktitut","value":"inuktitut"},{"text":"Inupiaq","value":"inupiaq"},{"text":"Irish","value":"irish"},{"text":"Javanese","value":"javanese"},{"text":"Kalaallisut","value":"kalaallisut"},{"text":"Kannada","value":"kannada"},{"text":"Kanuri","value":"kanuri"},{"text":"Kashmiri","value":"kashmiri"},{"text":"Kazakh","value":"kazakh"},{"text":"Kikuyu","value":"kikuyu"},{"text":"Kinyarwanda","value":"kinyarwanda"},{"text":"Komi","value":"komi"},{"text":"Kongo","value":"kongo"},{"text":"Kuanyama","value":"kuanyama"},{"text":"Kurdish","value":"kurdish"},{"text":"Kirghiz","value":"kyrgyz"},{"text":"Lao","value":"lao"},{"text":"Latin","value":"latin"},{"text":"Latvian","value":"latvian"},{"text":"Limburgan","value":"limburgan"},{"text":"Lingala","value":"lingala"},{"text":"Lithuanian","value":"lithuanian"},{"text":"Luba-Katanga","value":"luba-katanga"},{"text":"Luxembourgish","value":"luxembourgish"},{"text":"Macedonian","value":"macedonian"},{"text":"Malagasy","value":"malagasy"},{"text":"Malayalam","value":"malayalam"},{"text":"Maltese","value":"maltese"},{"text":"Manx","value":"manx"},{"text":"Maori","value":"maori"},{"text":"Marathi","value":"marathi"},{"text":"Marshallese","value":"marshallese"},{"text":"Moldavian","value":"moldavian"},{"text":"Mongolian","value":"mongolian"},{"text":"Nauru","value":"nauru"},{"text":"Navajo","value":"navajo"},{"text":"Ndonga","value":"ndonga"},{"text":"Nepali","value":"nepali"},{"text":"North Ndebele","value":"north_ndebele"},{"text":"Northern Sami","value":"northern_sami"},{"text":"Norwegian","value":"norwegian"},{"text":"Norwegian Bokmål","value":"norwegian_bokmal"},{"text":"Norwegian Nynorsk","value":"norwegian_nynorsk"},{"text":"Occidental","value":"occidental"},{"text":"Occitan","value":"occitan"},{"text":"Odia","value":"odia"},{"text":"Ojibwa","value":"ojibwa"},{"text":"Oromo","value":"oromo"},{"text":"Ossetian","value":"ossetian"},{"text":"Pali","value":"pali"},{"text":"Persian","value":"persian"},{"text":"Punjabi","value":"punjabi"},{"text":"Quechua","value":"quechua"},{"text":"Romanian","value":"romanian"},{"text":"Romansh","value":"romansh"},{"text":"Rundi","value":"rundi"},{"text":"Samoan","value":"samoan"},{"text":"Sango","value":"sango"},{"text":"Sanskrit","value":"sanskrit"},{"text":"Sardinian","value":"sardinian"},{"text":"Shona","value":"shona"},{"text":"Sichuan Yi","value":"sichuan_yi"},{"text":"Sindhi","value":"sindhi"},{"text":"Sinhala","value":"sinhala"},{"text":"Slovak","value":"slovak"},{"text":"Slovenian","value":"slovenian"},{"text":"Somali","value":"somali"},{"text":"South Ndebele","value":"south_ndebele"},{"text":"Southern Sotho","value":"southern_sotho"},{"text":"Sundanese","value":"sundanese"},{"text":"Swahili","value":"swahili"},{"text":"Swati","value":"swati"},{"text":"Swedish","value":"swedish"},{"text":"Tagalog (Filipino)","value":"tagalog"},{"text":"Tahitian","value":"tahitian"},{"text":"Tajik","value":"tajik"},{"text":"Tamil","value":"tamil"},{"text":"Tatar","value":"tatar"},{"text":"Tibetan","value":"tibetan"},{"text":"Tigrinya","value":"tigrinya"},{"text":"Tonga","value":"tonga"},{"text":"Tsonga","value":"tsonga"},{"text":"Tswana","value":"tswana"},{"text":"Turkmen","value":"turkmen"},{"text":"Twi","value":"twi"},{"text":"Uighur","value":"uighur"},{"text":"Uzbek","value":"uzbek"},{"text":"Venda","value":"venda"},{"text":"Volapük","value":"volapuk"},{"text":"Walloon","value":"walloon"},{"text":"Welsh","value":"welsh"},{"text":"Western Frisian","value":"western_frisian"},{"text":"Wolof","value":"wolof"},{"text":"Xhosa","value":"xhosa"},{"text":"Yiddish","value":"yiddish"},{"text":"Yoruba","value":"yoruba"},{"text":"Zhuang","value":"zhuang"},{"text":"Zulu","value":"zulu"}],
+                selected: [],
+            },
+            aliasData: {
+                sources: [{"english":"en","russian":"ru","german":"de","spanish":"es","dutch":"nl","french":"fr","italian":"it","portuguese":"pt","brazilian":"pt-br","chinese":"zh","traditional chinese":"tw","polish":"pl","ukrainian":"uk","bulgarian":"bg","greek":"el","romanian":"ro","moldavian":"mo","turkish":"tr","persian":"fa","arabic":"ar","japanese":"ja","swedish":"sv","hungarian":"hu","serbian":"sr","latin":"la","croatian":"hr","czech":"cs","kazakh":"kk","belarusian":"be","indonesian":"id","malaysian":"ms","lithuanian":"lt","catalan":"ca","finnish":"fi","azerbaijani":"az","korean":"ko","bengali":"bn","esperanto":"eo","hindi":"hi","urdu":"ur","danish":"da","uzbek":"uz","slovak":"sk","norwegian":"no","vietnamese":"vi","indigenous":"Indig.","bashkir":"ba","marathi":"mr","kyrgyz":"ky","tajik":"tg","tatar":"tt","albanian":"sq","somali":"so","icelandic":"is","mongolian":"mn","latvian":"lv","georgian":"ka","sanskrit":"sa","hebrew":"he","slovenian":"sl","malayalam":"ml","afrikaans":"af","nepali":"ne","sinhala":"si","berber":"ber","armenian":"hy","crimean":"cri","tamil":"ta","odia":"or","swahili":"sw","gujarati":"gu","telugu":"te","kannada":"kn","estonian":"et","thai":"th","chamorro":"ch","galician":"gl","abkhazian":"ab","afar":"aa","akan":"ak","amharic":"am","aragonese":"an","assamese":"as","avaric":"av","avestan":"ae","aymara":"ay","bambara":"bm","basque":"eu","bislama":"bi","bosnian":"bs","breton":"br","burmese":"my","chechen":"ce","chichewa":"ny","church_slavic":"cu","chuvash":"cv","cornish":"kw","corsican":"co","cree":"cr","divehi":"dv","dzongkha":"dz","ewe":"ee","faroese":"fo","fijian":"fj","western_frisian":"fy","fulah":"ff","gaelic":"gd","ganda":"lg","kalaallisut":"kl","guarani":"gn","haitian":"ht","hausa":"ha","herero":"hz","hiri_motu":"ho","ido":"io","igbo":"ig","interlingua":"ia","occidental":"ie","inuktitut":"iu","inupiaq":"ik","irish":"ga","javanese":"jv","kanuri":"kr","kashmiri":"ks","central_khmer":"km","kikuyu":"ki","kinyarwanda":"rw","komi":"kv","kongo":"kg","kuanyama":"kj","kurdish":"ku","lao":"lo","limburgan":"li","lingala":"ln","luba-katanga":"lu","luxembourgish":"lb","macedonian":"mk","malagasy":"mg","maltese":"mt","manx":"gv","maori":"mi","marshallese":"mh","nauru":"na","navajo":"nv","north_ndebele":"nd","south_ndebele":"nr","ndonga":"ng","norwegian_bokmal":"nb","norwegian_nynorsk":"nn","sichuan_yi":"ii","occitan":"oc","ojibwa":"oj","oromo":"om","ossetian":"os","pali":"pi","pashto":"ps","punjabi":"pa","quechua":"qu","romansh":"rm","rundi":"rn","northern_sami":"se","samoan":"sm","sango":"sg","sardinian":"sc","shona":"sn","sindhi":"sd","southern_sotho":"st","sundanese":"su","swati":"ss","tagalog":"tl","tahitian":"ty","tibetan":"bo","tigrinya":"ti","tonga":"to","tsonga":"ts","tswana":"tn","turkmen":"tk","twi":"tw","uighur":"ug","venda":"ve","volapuk":"vo","walloon":"wa","welsh":"cy","wolof":"wo","xhosa":"xh","yiddish":"yi","yoruba":"yo","zhuang":"za","zulu":"zu"}, 'text'],
+                pipe: [
+                    String.prototype.toUpperCase,
+                ],
+            },
+        });
+
+        
+                ZLibrarySearch.init();
+        $('.social-share-title').css("display", "");
+    });
+</script>
+
+<script>
+    $('document').ready(() => clearSearchButtonEvents('#searchFieldx', '#mainSearchReset'));                            // главный поиск
+</script>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px" class="hideInDesktopApp20">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row ">
+        <div class="footer-copyright w-5-hide w-3-3-show-inline">
+        <span class="w-5-hide w-1-3-show p-left-0"><a href="https://singlelogin.re" title="Z-Library project main page" target="blank" style="text-decoration:none;">Z-Library</a> Since 2009</span>
+        <span class="w-3-show w-1-3-hide p-left-0"><a href="https://singlelogin.re" title="Z-Library project main page" target="blank" style="text-decoration:none;">Z-Library</a> Since 2009</span>
+    </div>
+        <div class="footer-right w-5-hide w-4-3-show">
+        <div class="footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                
+            <li class="icon-link app-icon windows-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-windows.svg" class="colored" width="36" height="36" alt="Desktop Launcher Windows">
+                    <img src="/img/footer-icon-windows-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher Windows">
+                </a>
+            </li>
+            <li class="icon-link app-icon macos-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-macos.svg" class="colored" width="36" height="36" alt="Desktop Launcher MacOS">
+                    <img src="/img/footer-icon-macos-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher MacOS">
+                </a>
+            </li>
+            <li class="icon-link app-icon linux-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-linux.svg" class="colored" width="36" height="36" alt="Desktop Launcher Linux">
+                    <img src="/img/footer-icon-linux-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher Linux">
+                </a>
+            </li>
+            <li class="icon-link os-icon os-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-os.svg" class="colored" width="36" height="36" alt="Desktop Launcher">
+                    <img src="/img/footer-icon-os-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher">
+                </a>
+            </li>
+        
+        <li class="icon-link">
+            <a href="https://go-to-zlibrary.se/#android_app_tab" target="blank" title="ZLibrary android app" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-android.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-android-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+        
+        <li class="icon-link">
+            <a href="javascript://" role="link" onclick="window.location.replace('http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion')" data-toggle="tooltip" data-placement="top" data-html="true" title="<div style='white-space: nowrap;'>TOR version</div>" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-tor.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-tor-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+                    </ul>
+        </div>
+    </div>
+        <div class="footer-copyright w-3-3-show tablet-spread">
+        <span class="w-5-show w-3-hide p-left-0"><a href="https://singlelogin.re" title="Z-Library project main page" target="blank" style="text-decoration:none;">Z-Library</a> Since 2009</span>
+        <span class="w-3-p-left-0">
+            <a class="footer-mailto" href="mailto: support@z-lib.se">support@z-lib.se</a>
+        </span>
+            <span class=""> <a href="/faq" class="footer-link"><i class="zlibicon-faq"></i><span>FAQ</span></a></span>
+        <span class=""> <a href="/blog" class="footer-link"><i class="zlibicon-blog"></i><span>Blog</span></a></span>
+    
+            <span style="white-space: nowrap;"> <a href="https://t.me/zlibrary_official" class="footer-link"><i class="zlibicon-telegram"></i><span>Official сhannel</span></a>
+
+            <ul class="footer-official">
+                <li data-original-title="On&nbsp;Twitter"  data-toggle="tooltip">
+                    <a href="https://twitter.com/Z_Lib_official" target="_blank" class="social-icon icon-twitter">
+                        <span class="zlibicon-twitter"></span>
+                    </a>
+                </li>
+                <li data-original-title="On&nbsp;Mastodon"  data-toggle="tooltip">
+                    <a href="https://mastodon.social/@Z_Lib_official" rel="me" target="_blank" class="social-icon icon-mastodon">
+                        <span class="zlibicon-mastodon"></span>
+                    </a>
+                </li>
+                <li data-toggle="tooltip" data-original-title="Chinese&nbsp;channel&nbsp;on&nbsp;Telegram" >
+                    <a href="https://t.me/zlib_china_official" target="_blank" class="social-icon icon-tg">
+                        <span class="zlibicon-tgchn"></span>
+                    </a>
+                </li>
+            </ul>
+        </span>
+        <span style="white-space: nowrap;"> <a href="https://go-to-zlibrary.se" class="footer-link" target="_blank"><i class="zlibicon-key"></i><span>Z-Library</span></a></span>
+    </div>
+        <div class="footer-right w-4-3-left">
+        <div class="footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                
+            <li class="icon-link app-icon windows-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-windows.svg" class="colored" width="36" height="36" alt="Desktop Launcher Windows">
+                    <img src="/img/footer-icon-windows-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher Windows">
+                </a>
+            </li>
+            <li class="icon-link app-icon macos-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-macos.svg" class="colored" width="36" height="36" alt="Desktop Launcher MacOS">
+                    <img src="/img/footer-icon-macos-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher MacOS">
+                </a>
+            </li>
+            <li class="icon-link app-icon linux-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-linux.svg" class="colored" width="36" height="36" alt="Desktop Launcher Linux">
+                    <img src="/img/footer-icon-linux-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher Linux">
+                </a>
+            </li>
+            <li class="icon-link os-icon os-app-icon">
+                <a href="https://go-to-zlibrary.se/#desktop_app_tab" target="blank" title="Z-Library Desktop Launcher" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                    <img src="/img/footer-icon-os.svg" class="colored" width="36" height="36" alt="Desktop Launcher">
+                    <img src="/img/footer-icon-os-gray.svg" class="gray" width="36" height="36" alt="Desktop Launcher">
+                </a>
+            </li>
+        
+        <li class="icon-link">
+            <a href="https://go-to-zlibrary.se/#android_app_tab" target="blank" title="ZLibrary android app" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-android.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-android-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+        
+        <li class="icon-link">
+            <a href="javascript://" role="link" onclick="window.location.replace('http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion')" data-toggle="tooltip" data-placement="top" data-html="true" title="<div style='white-space: nowrap;'>TOR version</div>" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-tor.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-tor-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+                                            <li class="hideInDesktopApp"><a href="/tos">Terms</a></li>
+                <li class="hideInDesktopApp"><a href="/dmca">DMCA</a></li>
+                <li><a href="https://singlelogin.re/mission" title="Z-Library mission">Our Mission</a></li>
+                <li class="dropup p-right-0 p-left-0" style="white-space: nowrap;">
+                    
+<a href="#" class="link-option dropdown-toggle" id="footerLanguageListTrigger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret" style="margin-left: 10px;"></span></a>
+<ul class="dropdown-menu language-list" id="footerLanguageList">
+<li><a href='//zlib-articles.se/?switchLanguage=en'>English</a></li><li><a href='//ru.zlib-articles.se/?switchLanguage=ru'>Русский</a></li><li><a href='//es.zlib-articles.se/?switchLanguage=es'>Español</a></li><li><a href='//it.zlib-articles.se/?switchLanguage=it'>Italiano</a></li><li><a href='//el.zlib-articles.se/?switchLanguage=el'>ελληνικά</a></li><li><a href='//ar.zlib-articles.se/?switchLanguage=ar'>اللغة العربية</a></li><li><a href='//id.zlib-articles.se/?switchLanguage=id'>Bahasa Indonesia</a></li><li><a href='//ms.zlib-articles.se/?switchLanguage=ms'>Bahasa Malaysia</a></li><li><a href='//hi.zlib-articles.se/?switchLanguage=hi'>हिन्दी</a></li><li><a href='//de.zlib-articles.se/?switchLanguage=de'>Deutsch</a></li><li><a href='//fr.zlib-articles.se/?switchLanguage=fr'>Français</a></li><li><a href='//pt.zlib-articles.se/?switchLanguage=pt'>Português</a></li><li><a href='//uk.zlib-articles.se/?switchLanguage=uk'>Українська</a></li><li><a href='//pl.zlib-articles.se/?switchLanguage=pl'>Polski</a></li><li><a href='//zh.zlib-articles.se/?switchLanguage=zh'>中文</a></li><li><a href='//tw.zlib-articles.se/?switchLanguage=tw'>繁體中文</a></li><li><a href='//ja.zlib-articles.se/?switchLanguage=ja'>日本語</a></li><li><a href='//vi.zlib-articles.se/?switchLanguage=vi'>Tiếng Việt</a></li><li><a href='//az.zlib-articles.se/?switchLanguage=az'>Azərbaycan Dili</a></li><li><a href='//hy.zlib-articles.se/?switchLanguage=hy'>Հայոց լեզու</a></li><li><a href='//th.zlib-articles.se/?switchLanguage=th'>ภาษาไทย</a></li><li><a href='//tr.zlib-articles.se/?switchLanguage=tr'>Türk Dili</a></li><li><a href='//ka.zlib-articles.se/?switchLanguage=ka'>ქართველი</a></li><li><a href='//bn.zlib-articles.se/?switchLanguage=bn'>বাংলা</a></li><li><a href='//ps.zlib-articles.se/?switchLanguage=ps'>پښتو</a></li><li><a href='//te.zlib-articles.se/?switchLanguage=te'>తెలుగు</a></li><li><a href='//ur.zlib-articles.se/?switchLanguage=ur'>اردو</a></li><li><a href='//ko.zlib-articles.se/?switchLanguage=ko'>한국어</a></li><li><a href='//sr.zlib-articles.se/?switchLanguage=sr'>Srpski</a></li><li><a href='//bg.zlib-articles.se/?switchLanguage=bg'>Български</a></li></ul>
+<script>
+    window.addEventListener('load', ()=>{
+        footerLanguageListCheckOverflow()
+    })
+    window.addEventListener('resize', ()=>{
+        footerLanguageListCheckOverflow()
+    })
+    function footerLanguageListCheckOverflow(){
+        if(document.getElementById("footerLanguageListTrigger").getBoundingClientRect().left < 100){
+            document.getElementById("footerLanguageList").classList.add('left')
+        }else{
+            document.getElementById("footerLanguageList").classList.remove('left')
+        }
+    }
+</script>
+                </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+
+<!-- Telegram modal helper -->
+<div style="display: none" id="tg-connect-modal">
+    <div class="tg-connect-modal-content">
+    <div>
+        <div class="tg-connect-step">
+            <div class="tg-connect-line">
+                <span class="tg-connect-number"><span>1</span></span>
+                <span class="tg-connect-line__text">
+                        Follow <a target="_blank" href="https://t.me/BotFather">this link</a> or find "@BotFather" bot on Telegram                    </span>
+            </div>
+        </div>
+
+        <div class="tg-connect-step">
+            <div class="tg-connect-line">
+                <span class="tg-connect-number"><span>2</span></span>
+                <span class="tg-connect-line__text">
+                        Send /newbot command                    </span>
+            </div>
+            <div class="tg-connect-img">
+                <img src="/img/tg/pb1.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="tg-connect-step">
+            <div class="tg-connect-line">
+                <span class="tg-connect-number"><span>3</span></span>
+                <span class="tg-connect-line__text">
+                        Specify a name for your chatbot                    </span>
+            </div>
+            <div class="tg-connect-img">
+                <img src="/img/tg/pb2.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="tg-connect-step">
+            <div class="tg-connect-line">
+                <span class="tg-connect-number"><span>4</span></span>
+                <span class="tg-connect-line__text">
+                        Choose a username for the bot                    </span>
+            </div>
+            <div class="tg-connect-img">
+                <img src="/img/tg/pb3.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="tg-connect-step">
+            <div class="tg-connect-line">
+                <span class="tg-connect-number"><span>5</span></span>
+                <span class="tg-connect-line__text">
+                        Copy an entire last message from BotFather and paste it here                    </span>
+            </div>
+            <div class="tg-connect-content">
+                <textarea class="tg-connect-textarea js-tg-textarea" style="width: 100%" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="tg-connect-footer">
+            <button class="tg-personal-btn _disabled js-tg-connect-btn" onclick="telegramPBBindAction(this)">Connect!</button>
+            <button onclick="$(this).closest('.modal').modal('hide')">Close</button>
+        </div>
+    </div>
+</div></div>
+
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        if (window.innerWidth < 769) {
+            $(".app-icon").remove()
+        }else{
+            $(".os-icon").remove()
+            if (navigator.platform.startsWith('Win')) {
+                // $(".windows-app-icon").show()
+                $(".linux-app-icon").remove()
+                $(".macos-app-icon").remove()
+            } else if (navigator.platform.startsWith('Linux')) {
+                // $(".windows-app-icon").show()
+                $(".linux-app-icon").remove()
+                $(".macos-app-icon").remove()
+            } else if (navigator.platform.startsWith('Mac')) {
+                // $(".macos-app-icon").show()
+                $(".linux-app-icon").remove()
+                $(".windows-app-icon").remove()
+            }
+        }
+    })
+</script></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- icons preload hack -->
+        <i class="zlibicon-check" style="font-size: 1px; visibility: hidden; position: absolute; top: 0; left: 0;"></i>
+
+        <div class="modal fade" id="zlibrary-modal" role="dialog" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body" style="position: relative; min-height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-styled" role="dialog" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body"></div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-auth" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ggAdditionalHtml -->
+        <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe><script></script>        <!-- /ggAdditionalHtml -->
+        
+                
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+                let page = parseInt((new URL(document.location)).searchParams.get("page"));
+
+                if (page > pagerOptions.pagesTotal) {
+                    document.location.href = document.location.href.replace(/page=\d+/gi, "page="+pagerOptions.pagesTotal);
+                }
+            }
+        </script>
+        <link rel="stylesheet" href="./resources/ext/ensemble/ensemble-social-share.min.css" />
+        <link rel="stylesheet" href="./resources/ext/ensemble/iconset.tmp.css" />
+        <script src="./resources/ext/ensemble/ensemble-social-share.min.js"></script>
+        <script>
+            let domain_to_share = "zlib-articles.se"
+            if(!domain_to_share){
+                domain_to_share = "zlib-articles.se"
+            }
+            // const global_link_to_share = location.protocol + '//' + domain_to_share +location.pathname+location.search+location.hash;
+            const social_share_element = document.querySelector('.social-share-buttons');
+            if(social_share_element){
+                new ensemble.SocialShare(social_share_element,{
+                    // namespace
+                    ns: 'share',
+                    domain: domain_to_share,
+                    fx: true,
+                    // root element
+                    root: 'body',
+                    // default classname
+                    className: 'social-share',
+                    // page title to share
+                    // defaults to window.title
+                    title: '',
+                    // description to share
+                    description: '',
+                    // actions to display
+                    displays: null,
+                    // action intents
+                    intents: {
+                    'facebook': 0,
+                    'twitter': 0,
+                    'whatsapp': 1,
+                    'telegram': 1,
+                    'linkedin': 0,
+                    'send-email': 2
+                    },
+                    locale: {
+                        text: 'Hey! This is what you were looking for: %s',
+                    },
+                    // URI strings
+                    uriform: {
+                    'facebook': 'https://facebook.com/sharer.php?u=%url%',
+                    'twitter': 'https://twitter.com/share?url=%url%&text=%title%',
+                    'whatsapp': 'https://api.whatsapp.com/send?text=%text%',
+                    'telegram': 'https://telegram.me/share/url?url=%url%&text=%text%',
+                    'linkedin': 'https://www.linkedin.com/sharing/share-offsite?mini=true&url=%url%&title=%title%&ro=false&summary=%summary%',
+                    'send-email': 'mailto:?subject=%subject%&body=%text%'
+                    },
+                    // selector to find link
+                    selectorLink: {
+                    element: 'link[rel="canonical"]',
+                    attribute: 'href'
+                    },
+                    // selector to find title
+                    selectorTitle: null,
+                    // selector to find description
+                    selectorDescription: {
+                    element: 'meta[name="description"]',
+                    attribute: 'content'
+                    },
+                    // Custom parameters for label
+                    label: {},
+                });
+            }
+        </script>
+
+            </body>
+</html>
+
+

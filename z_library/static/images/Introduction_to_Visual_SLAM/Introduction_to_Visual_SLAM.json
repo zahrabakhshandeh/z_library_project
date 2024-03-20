@@ -1,0 +1,16 @@
+{
+    "title": "Introduction to Visual SLAM",
+    "author": "Xiang Gao",
+    "desc": "This book offers a systematic and comprehensive introduction to the visual simultaneous localization and mapping (vSLAM) technology, which is a fundamental and essential component for many applications in robotics, wearable devices, and autonomous driving vehicles. The book starts from very basic mathematic background knowledge such as 3D rigid body geometry, the pinhole camera projection model, and nonlinear optimization techniques, before introducing readers to traditional computer vision topics like feature matching, optical flow, and bundle adjustment. The book employs a light writing style, instead of the rigorous yet dry approach that is common in academic literature. In addition, it includes a wealth of executable source code with increasing difficulty to help readers understand and use the practical techniques. The book can be used as a textbook for senior undergraduate or graduate students, or as reference material for researchers and engineers in related areas.",
+    "img_url": "https://s3proxy.cdn-zlib.se/covers299/collections/userbooks/e509ff383dc3a113ebf90b29f3722a8d25b80c5f3a1cad20c45ad1c4e58c67c7.jpg",
+    "Categories": "Engineering - Robotics & Artificial Intelligence",
+    "Year": "2021",
+    "Publisher": "Springer",
+    "Language": "english",
+    "Pages": "376",
+    "ISBN 10": "9811649383",
+    "ISBN 13": "9789811649387",
+    "File": "PDF, 8.27 MB",
+    "IPFS CID": "QmdMkUtdhzmLAuqK1UPzuLBAPGNdYQHHBqhdaPG5BbcxHr",
+    "IPFS CID blake2b": "bafykbzacebuhmbxa22pppvh4rxnzpnhcjw635gim4raqalt2gkhfdqgyru3fu"
+}
